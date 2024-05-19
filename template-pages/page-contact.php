@@ -11,7 +11,7 @@ get_header();
             loading="lazy"
             src="<?= get_template_directory_uri() ?>/assets/images/divider1.svg"
             alt=""
-            class="mt-7 aspect-[20] w-[60px] fill-cornflowerblue-100"
+            class=" aspect-[20] w-[60px] fill-cornflowerblue-100"
           />
           <div
             class="mt-24 flex gap-2.5 text-lg leading-6 whitespace-nowrap max-md:mt-10"

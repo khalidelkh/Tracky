@@ -645,15 +645,13 @@ get_header('home');
               />
 
               <div
-                class="swiper w-full items-start justify-start gap-[5px] z-[0] text-sm text-darkslategray-100"
+                class="swiper max-w-80 sm:max-w-none w-full items-start justify-start gap-[5px] z-[0] text-sm text-darkslategray-100"
               >
                 <div class="avis-swiper w-full overflow-hidden">
                   <div class="swiper-wrapper w-full">
-                    <div
-                      class="swiper-slide max-w-[646.2px] relative leading-[25px]"
-                    >
+                    <div class="swiper-slide relative leading-[25px]">
                       <p>
-                        <span>TRACKY </span>
+                        <b>TRACKY </b>
                         <span
                           >est une solution SAAS (software as a service). Aucun
                           logiciel à installer. Une simple connexion internet
@@ -679,9 +677,7 @@ get_header('home');
                       </div>
                     </div>
 
-                    <div
-                      class="swiper-slide max-w-[646.2px] relative leading-[25px]"
-                    >
+                    <div class="swiper-slide relative leading-[25px]">
                       <p>
                         <span>TRACKY </span>
                         <span
