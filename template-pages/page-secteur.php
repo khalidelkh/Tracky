@@ -808,7 +808,7 @@ get_header();
                   <div class="swiper-wrapper w-full">
                     <div class="swiper-slide relative leading-[25px]">
                       <p>
-                        <b>TRACKY </b>
+                       <span>TRACKY </span>
                         <span
                           >est une solution SAAS (software as a service). Aucun
                           logiciel à installer. Une simple connexion internet

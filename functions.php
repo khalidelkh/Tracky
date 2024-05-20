@@ -50,6 +50,9 @@ function tracky_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'tracky' ),
+			'header-menu' => esc_html__('Header menu', 'tracky'),
+			'pages-légales' => esc_html__('pages légales', 'tracky'),
+			'liens-utils' => esc_html__('liens utils', 'tracky'),
 		)
 	);
 
@@ -184,4 +187,110 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+/**
+ * tracky customizer
+ *
+ * @param [type] $wp_customize
+ * @return void
+ */
+function tracky_customizer_settings($wp_customize)
+{
+
+	// Section for Contact Information
+	$wp_customize->add_section('contact_info_section', array(
+		'title'    => __('Contact Information', 'tracky'),
+		'priority' => 30,
+	));
+
+	// Email
+	$wp_customize->add_setting('contact_email', array(
+		'default'   => '',
+	));
+
+	$wp_customize->add_control('contact_email', array(
+		'type'     => 'email',
+		'section'  => 'contact_info_section',
+		'label'    => __('Email', 'tracky'),
+	));
+
+	// Email
+	$wp_customize->add_setting('contact_phone', array(
+		'default'   => '',
+	));
+
+	$wp_customize->add_control('contact_phone', array(
+		'type'     => 'text',
+		'section'  => 'contact_info_section',
+		'label'    => __('Téléphone', 'tracky'),
+	));
+	// Email
+	$wp_customize->add_setting('contact_adress', array(
+		'default'   => '',
+	));
+
+	$wp_customize->add_control('contact_adress', array(
+		'type'     => 'text',
+		'section'  => 'contact_info_section',
+		'label'    => __('Adresse', 'tracky'),
+	));
+	// Section for Social Media Links
+	$wp_customize->add_section('social_media_section', array(
+		'title'    => __('Social Media Links', 'tracky'),
+		'priority' => 35,
+	));
+
+	// Facebook
+	$wp_customize->add_setting('facebook_link', array(
+		'default'   => '',
+	));
+
+	$wp_customize->add_control('facebook_link', array(
+		'type'     => 'url',
+		'section'  => 'social_media_section',
+		'label'    => __('Facebook', 'tracky'),
+		'description' => 'https://facebook.com/yourusername',
+	));
+
+	// Youtub
+	$wp_customize->add_setting('youtub_link', array(
+		'default'   => '',
+	));
+
+	$wp_customize->add_control('youtub_link', array(
+		'type'     => 'url',
+		'section'  => 'social_media_section',
+		'label'    => __('Youtub', 'tracky'),
+		'description' => 'https://youtub.com/yourusername'
+	));
+
+	// Instagram
+	$wp_customize->add_setting('instagram_link', array(
+		'default'   => '',
+	));
+
+	$wp_customize->add_control('instagram_link', array(
+		'type'     => 'url',
+		'section'  => 'social_media_section',
+		'label'    => __('Instagram', 'tracky'),
+		'description' => 'https://instagram.com/in/yourusername'
+	));
+
+	// Twitter
+	$wp_customize->add_setting('tweeter_link', array(
+		'default'   => '',
+	));
+
+	$wp_customize->add_control('tweeter_link', array(
+		'type'     => 'url',
+		'section'  => 'social_media_section',
+		'label'    => __('Twitter', 'tracky'),
+		'description' => 'https://twitter.com/yourusername'
+	));
+
+
+
+}
+add_action('customize_register', 'tracky_customizer_settings');
+
 

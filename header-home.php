@@ -34,36 +34,45 @@
               src="<?= get_template_directory_uri() ?>/assets/images/emailsvg.svg"
             />
 
-            <div
-              class="relative leading-[20.19px] font-medium mix-blend-normal text-white"
+            <a href="mailto:<?= get_theme_mod('contact_email', 'info@tracky.com') ?>"
+              class="relative leading-[20.19px] font-medium mix-blend-normal text-white hover:text-white"
             >
-              info@tracky.com
-            </div>
+            <?= get_theme_mod('contact_email', 'info@tracky.com') ?>
+            </a>
           </div>
           <div class="flex flex-row items-center justify-start gap-[22px]">
+
+          <a href="<?= get_theme_mod('tweeter_link', '') ?>">
             <img
               class="w-[18.2px] relative h-[15.1px] mix-blend-normal"
               alt=""
               src="<?= get_template_directory_uri() ?>/assets/images/twittericon.svg"
             />
-
+          </a>
+           
+            <a href="<?= get_theme_mod('instagram_link', '') ?>"> 
             <img
               class="w-[15.2px] relative h-[15.1px] mix-blend-normal"
               alt=""
               src="<?= get_template_directory_uri() ?>/assets/images/instagramicon.svg"
             />
-
+            </a>
+           
+            <a href="<?= get_theme_mod('facebook_link', '') ?>">
             <img
               class="w-[8.7px] relative h-[15.1px] mix-blend-normal"
               alt=""
               src="<?= get_template_directory_uri() ?>/assets/images/vector.svg"
             />
-
+            </a>
+             
+            <a href="<?= get_theme_mod('youtub_link', '') ?>">
             <img
               class="w-[17.2px] relative h-[12.1px] mix-blend-normal"
               alt=""
               src="<?= get_template_directory_uri() ?>/assets/images/youtubeicon.svg"
             />
+           </a>
           </div>
         </div>
       </div>

@@ -76,9 +76,9 @@ get_header();
                     <div class="text-base leading-7 text-slate-950 ">
                       Appelez-nous
                     </div>
-                    <div class="mt-1.5 text-lg leading-5 text-zinc-700 font-bold">
-                      +212 5 28 23 60 87
-                    </div>
+                    <a href="tel:<?= get_theme_mod('contact_email', '+212 5 28 23 60 87') ?>" class="mt-1.5 text-lg leading-5 text-zinc-700 font-bold">
+                      <?= get_theme_mod('contact_phone', '+212 5 28 23 60 87') ?>
+                    </a>
                   </div>
                 </div>
 
@@ -97,9 +97,9 @@ get_header();
                     class="flex flex-col my-auto font-semibold whitespace-nowrap"
                   >
                     <div class="text-base leading-7 text-slate-950">E-mail</div>
-                    <div class="mt-2 text-lg leading-5 text-zinc-700 font-bold">
-                      info@tracky.com
-                    </div>
+                    <a href="mailto:<?= get_theme_mod('contact_email', 'info@tracky.com') ?>" class="mt-2 text-lg leading-5 text-zinc-700 font-bold">
+                      <?= get_theme_mod('contact_email', 'info@tracky.com') ?>
+                    </a>
                   </div>
                 </div>
 
@@ -125,7 +125,7 @@ get_header();
                     <div
                       class="mt-2 text-lg leading-5 text-zinc-700 max-md:max-w-full font-bold"
                     >
-                      Siège social : Nº A405 Agadir Baya Founty - Agadir
+                    <?= get_theme_mod('contact_adress', 'Siège social : Nº A405 Agadir Baya Founty - Agadir') ?>
                     </div>
                   </div>
                 </div>

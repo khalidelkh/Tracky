@@ -153,7 +153,7 @@ get_header('home');
                   <div
                     class="relative text-left leading-[38px] mix-blend-normal text-13xl font-work-sans"
                   >
-                    PARTICULIER
+                    <b>PARTICULIER</b>
                     <p class="text-white m-0">
                       OU PERSONNEL
                       <span
@@ -175,7 +175,7 @@ get_header('home');
                   <div
                     class="relative text-left leading-[38px] mix-blend-normal text-13xl font-work-sans"
                   >
-                    PARTICULIER
+                  <b>PARTICULIER</b>
                     <p class="text-white m-0">
                       OU PERSONNEL
                       <span
@@ -197,7 +197,7 @@ get_header('home');
                   <div
                     class="relative text-left leading-[38px] mix-blend-normal text-13xl font-work-sans"
                   >
-                    PARTICULIER
+                  <b>PARTICULIER</b>
                     <p class="text-white m-0">
                       OU PERSONNEL
                       <span
@@ -219,7 +219,7 @@ get_header('home');
                   <div
                     class="relative text-left leading-[38px] mix-blend-normal text-13xl font-work-sans"
                   >
-                    PARTICULIER
+                  <b>PARTICULIER</b>
                     <p class="text-white m-0">
                       OU PERSONNEL
                       <span
@@ -651,7 +651,7 @@ get_header('home');
                   <div class="swiper-wrapper w-full">
                     <div class="swiper-slide relative leading-[25px]">
                       <p>
-                        <b>TRACKY </b>
+                      <span>TRACKY </span>
                         <span
                           >est une solution SAAS (software as a service). Aucun
                           logiciel à installer. Une simple connexion internet
@@ -679,7 +679,7 @@ get_header('home');
 
                     <div class="swiper-slide relative leading-[25px]">
                       <p>
-                        <span>TRACKY </span>
+                       <span>TRACKY </span>
                         <span
                           >est une solution SAAS (software as a service). Aucun
                           logiciel à installer. Une simple connexion internet

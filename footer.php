@@ -69,17 +69,21 @@
                 >
               </p>
               <div class="flex flex-row items-start justify-start gap-[24px]">
+              <a href="<?= get_theme_mod('instagram_link', '') ?>"> 
                 <img
                   class="w-[20.2px] relative h-[20.2px] mix-blend-normal"
                   alt=""
                   src="<?= get_template_directory_uri() ?>/assets/images/instagram.svg"
                 />
-
+              </a>  
+               
+              <a href="<?= get_theme_mod('facebook_link', '') ?>">
                 <img
                   class="w-[11.5px] relative h-[20.2px] mix-blend-normal"
                   alt=""
                   src="<?= get_template_directory_uri() ?>/assets/images/vector9.svg"
                 />
+              </a>
               </div>
             </div>
           </div>
@@ -204,7 +208,7 @@
           </p>
         </div>
       </section>
-	  </div>
+	  
 
 <?php wp_footer(); ?>
 

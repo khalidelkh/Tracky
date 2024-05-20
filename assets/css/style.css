@@ -3897,6 +3897,10 @@ body{
   display: flex !important;
 }
 
+a{
+  outline: none !important;
+}
+
 ul {
   list-style: none !important;
 }
@@ -3939,6 +3943,11 @@ ul {
 
 .hover\:font-bold:hover{
   font-weight: 700;
+}
+
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover{

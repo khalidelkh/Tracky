@@ -46,6 +46,11 @@ body {
     display: flex !important;
 }
 
+a{
+  outline: none !important;
+}
+
+
 ul {
   list-style: none !important;
 }
