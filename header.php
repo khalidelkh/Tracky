@@ -217,7 +217,7 @@
                 'theme_location' => 'header-menu',
                 'menu_id' => 'header-menu',
                 'container' => 'ul',
-                'menu_class' => 'header-menu text-lg font-medium flex flex-col justify-center items-center space-y-6',
+                'menu_class' => 'header-menu m-0 text-lg font-medium flex flex-col justify-center items-center space-y-6',
               ));
               ?>
                 <!-- <ul
