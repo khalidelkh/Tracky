@@ -553,6 +553,10 @@ button{
   margin-bottom: auto;
 }
 
+.\!ml-40{
+  margin-left: 10rem !important;
+}
+
 .-mb-24{
   margin-bottom: -6rem;
 }
@@ -675,6 +679,10 @@ button{
 
 .mt-\[-9px\]{
   margin-top: -9px;
+}
+
+.\!ml-10{
+  margin-left: 2.5rem !important;
 }
 
 .box-border{

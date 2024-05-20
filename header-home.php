@@ -91,7 +91,7 @@
 
             <!-- * ---- Desktop menu ---- * -->
             <div
-              class="hidden lg:flex flex-row flex-1 items-center justify-between"
+              class="hidden lg:flex flex-row flex-1 items-center justify-between !ml-10"
             >
               <ul
                 class="flex text-sm p-0 m-0 xl:text-base flex-row items-end justify-start gap-5 xl:gap-[32px]"
@@ -156,11 +156,11 @@
                     src="<?= get_template_directory_uri() ?>/assets/images/vector1.svg"
                   />
                 </div>
-                 <div
+                 <!-- <div
                   class="relative leading-[22.21px] font-semibold mix-blend-normal"
                 >
                   Actualitées
-                </div> 
+                </div>  -->
                 <div
                   class="relative leading-[22.21px] font-semibold mix-blend-normal"
                 >
@@ -223,9 +223,9 @@
                     <a class="hover:underline" href="#">Produits</a>
                   </li>
 
-                   <li>
+                   <!-- <li>
                     <a class="hover:underline" href="#">Actualitées</a>
-                  </li> 
+                  </li>  -->
 
                   <li>
                     <a class="hover:underline" href="#">Contact</a>
