@@ -41,6 +41,16 @@ body {
   }
 
 }
+@layer components {
+  .swiper-screenshots-pagination .swiper-pagination-bullet {
+    @apply !w-5 !h-5 rounded-full border !border-midnightblue !bg-white border-solid;
+  }
+
+  .swiper-screenshots-pagination .swiper-pagination-bullet-active {
+    @apply !bg-cornflowerblue-100;
+  }
+}
+
 .vehicule.swiper-slide
 {
     display: flex !important;

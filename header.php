@@ -160,11 +160,11 @@
                     src="<?= get_template_directory_uri() ?>/assets/images/vector1.svg"
                   />
                 </div>
-                <div
+                 <div
                   class="relative leading-[22.21px] font-semibold mix-blend-normal"
                 >
                   Actualitées
-                </div>
+                </div> 
                 <div
                   class="relative leading-[22.21px] font-semibold mix-blend-normal"
                 >
@@ -227,9 +227,9 @@
                     <a class="hover:underline" href="#">Produits</a>
                   </li>
 
-                  <li>
+                   <li>
                     <a class="hover:underline" href="#">Actualitées</a>
-                  </li>
+                  </li> 
 
                   <li>
                     <a class="hover:underline" href="#">Contact</a>

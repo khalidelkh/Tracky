@@ -68,3 +68,38 @@ new Swiper(".avis-swiper", {
     el: ".avis-swiper-pagination",
   },
 });
+
+// * screen shots swiper
+new Swiper(".swiper-screenshots-container", {
+  // Optional parameters
+  // direction: "horizontal",
+  // loop: true,
+  // autoplay: {
+  //   delay: 5000,
+  // },
+
+  slidesPerView: 4,
+  spaceBetween: 20,
+
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    640: {
+      slidesPerView: 2,
+    },
+    1140: {
+      slidesPerView: 4,
+    },
+  },
+
+  navigation: {
+    nextEl: ".swiper-screenshots-button-next",
+    prevEl: ".swiper-screenshots-button-prev",
+  },
+
+  // If we need pagination
+  pagination: {
+    el: ".swiper-screenshots-pagination",
+  },
+});
