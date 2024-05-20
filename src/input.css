@@ -43,11 +43,18 @@ body {
 }
 @layer components {
   .swiper-screenshots-pagination .swiper-pagination-bullet {
-    @apply !w-5 !h-5 rounded-full border !border-midnightblue !bg-white border-solid;
+    @apply !w-5 !h-5 rounded-full !border !border-midnightblue !bg-white !border-solid;
   }
 
   .swiper-screenshots-pagination .swiper-pagination-bullet-active {
     @apply !bg-cornflowerblue-100;
+  }
+  .product-filter-button {
+    @apply !bg-white !px-5 !py-2.5 !border !border-midnightblue/20 !border-solid !rounded-sm !text-midnightblue !cursor-pointer;
+  }
+
+  .product-filter-button[data-active] {
+    @apply !bg-cornflowerblue-100 !text-white;
   }
 }
 

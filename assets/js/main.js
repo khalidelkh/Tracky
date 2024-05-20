@@ -103,3 +103,19 @@ new Swiper(".swiper-screenshots-container", {
     el: ".swiper-screenshots-pagination",
   },
 });
+// * Product filter in product page
+const productFilterButtons = document.querySelectorAll(
+  ".product-filter-button"
+);
+productFilterButtons?.forEach((button) => {
+  button.addEventListener("click", function () {
+    // Remove active attribute from all buttons
+    for (var i = 0; i < productFilterButtons.length; i++) {
+      productFilterButtons[i].removeAttribute("data-active");
+    }
+
+    // Add active attribute to the clicked button
+    button.setAttribute("data-active", "");
+  });
+});
+
