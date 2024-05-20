@@ -442,6 +442,10 @@ button{
   isolation: auto;
 }
 
+.z-10{
+  z-index: 10;
+}
+
 .z-20{
   z-index: 20;
 }
@@ -848,6 +852,10 @@ button{
   aspect-ratio: 1.39;
 }
 
+.aspect-\[2\.63\]{
+  aspect-ratio: 2.63;
+}
+
 .aspect-\[20\]{
   aspect-ratio: 20;
 }
@@ -1179,6 +1187,10 @@ button{
 
 .w-1{
   width: 0.25rem;
+}
+
+.w-16{
+  width: 4rem;
 }
 
 .w-2{
@@ -1537,6 +1549,10 @@ button{
   max-width: 444.2px;
 }
 
+.max-w-\[500px\]{
+  max-width: 500px;
+}
+
 .max-w-\[505px\]{
   max-width: 505px;
 }
@@ -1611,6 +1627,10 @@ button{
 
 .max-w-\[747\.1px\]{
   max-width: 747.1px;
+}
+
+.max-w-\[883px\]{
+  max-width: 883px;
 }
 
 .max-w-full{
@@ -2193,6 +2213,10 @@ button{
 
 .gap-5{
   gap: 1.25rem;
+}
+
+.gap-6{
+  gap: 1.5rem;
 }
 
 .gap-\[106px\]{
@@ -3243,6 +3267,11 @@ button{
   padding-right: 2.75rem;
 }
 
+.px-14{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
 .px-16{
   padding-left: 4rem;
   padding-right: 4rem;
@@ -3341,6 +3370,10 @@ button{
 
 .pb-20{
   padding-bottom: 5rem;
+}
+
+.pb-24{
+  padding-bottom: 6rem;
 }
 
 .pb-8{
@@ -3821,6 +3854,11 @@ button{
 
 .leading-normal{
   line-height: 1.5;
+}
+
+.\!text-cornflowerblue-100{
+  --tw-text-opacity: 1 !important;
+  color: rgb(0 149 243 / var(--tw-text-opacity)) !important;
 }
 
 .\!text-white{
@@ -4631,6 +4669,10 @@ ul {
 }
 
 @media (min-width: 768px){
+  .md\:-mt-24{
+    margin-top: -6rem;
+  }
+
   .md\:block{
     display: block;
   }

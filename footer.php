@@ -124,11 +124,11 @@
               >
                 Produits
               </div>
-              <div
+              <!-- <div
                 class="relative leading-[22.21px] font-medium mix-blend-normal"
               >
                 Actualitées
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="flex flex-col items-start justify-start gap-[19px]">
@@ -158,11 +158,11 @@
               >
                 Produits
               </div>
-              <div
+              <!-- <div
                 class="relative leading-[22.21px] font-medium mix-blend-normal"
               >
                 Actualitées
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="flex flex-col items-start justify-start gap-[17px]">
