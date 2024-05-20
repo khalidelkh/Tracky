@@ -202,7 +202,7 @@
           class="bg-midnightblue min-h-16 flex flex-col items-center justify-center"
         >
           <p
-            class="relative text-sm sm:text-base leading-[22.21px] font-medium mix-blend-normal text-white"
+            class="relative text-sm sm:text-base leading-[22.21px] font-medium mix-blend-normal text-white m-0"
           >
             Copyright © 2024 Tracky . Tous Droit Réservé.
           </p>
