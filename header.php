@@ -97,7 +97,15 @@
             <div
               class="hidden lg:flex flex-row flex-1 items-center justify-between !ml-10"
             >
-              <ul
+            <?php
+              wp_nav_menu(array(
+                'theme_location' => 'header-menu',
+                'menu_id' => 'header-menu',
+                'container' => 'ul',
+                'menu_class' => 'header-menu flex text-sm p-0 m-0 xl:text-base flex-row items-end justify-start gap-5 xl:gap-[32px] font-bold',
+              ));
+              ?>
+              <!-- <ul
                 class="flex text-sm p-0 m-0 xl:text-base flex-row items-end justify-start gap-5 xl:gap-[32px]"
               >
                 <li
@@ -159,26 +167,26 @@
                     alt=""
                     src="<?= get_template_directory_uri() ?>/assets/images/vector1.svg"
                   />
-                </div>
+                </div> -->
                  <!-- <div
                   class="relative leading-[22.21px] font-semibold mix-blend-normal"
                 >
                   Actualitées
                 </div>  -->
-                <div
+                <!-- <div
                   class="relative leading-[22.21px] font-semibold mix-blend-normal"
                 >
                   Contact
                 </div>
-              </ul>
+              </ul> -->
               <button
                 class="cursor-pointer p-0 bg-cornflowerblue-100 w-44 xl:w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
               >
-                <div
-                  class="relative text-sm xl:text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+                <a href="/demende-un-devis"
+                  class="relative text-sm xl:text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                 >
                   Demande un devis
-                </div>
+                </a>
               </button>
             </div>
 
@@ -204,7 +212,15 @@
                 style="opacity: 0; pointer-events: none"
                 class="mobile-menu bg-midnightblue transition-all duration-200 ease-out flex flex-col justify-evenly items-center py-10 w-full h-[calc(100vh-120px)] left-0 z-50 right-0 absolute top-[120px] text-orange"
               >
-                <ul
+              <?php
+              wp_nav_menu(array(
+                'theme_location' => 'header-menu',
+                'menu_id' => 'header-menu',
+                'container' => 'ul',
+                'menu_class' => 'header-menu text-lg font-medium flex flex-col justify-center items-center space-y-6',
+              ));
+              ?>
+                <!-- <ul
                   class="text-lg font-medium flex flex-col justify-center items-center space-y-6"
                 >
                   <li>
@@ -225,25 +241,25 @@
 
                   <li>
                     <a class="hover:underline" href="#">Produits</a>
-                  </li>
+                  </li> -->
 
                    <!-- <li>
                     <a class="hover:underline" href="#">Actualitées</a>
                   </li>  -->
 
-                  <li>
+                  <!-- <li>
                     <a class="hover:underline" href="#">Contact</a>
                   </li>
-                </ul>
+                </ul> -->
 
                 <button
                   class="cursor-pointer p-0 bg-cornflowerblue-100 w-44 xl:w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
                 >
-                  <div
-                    class="relative text-sm xl:text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+                  <a href="/demende-un-devis"
+                    class="relative text-sm xl:text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                   >
                     Demande un devis
-                  </div>
+                 </a>
                 </button>
               </div>
             </div>

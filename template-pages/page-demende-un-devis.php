@@ -16,7 +16,7 @@ get_header();
           <div
             class="mt-24 flex gap-2.5 text-lg leading-6 whitespace-nowrap max-md:mt-10"
           >
-            <a href="#" class="text-cornflowerblue-100">Home</a>
+            <a href="#" class="!text-cornflowerblue-100">Home</a>
             <img
               loading="lazy"
               src="<?= get_template_directory_uri() ?>/assets/images/icons/double-chevron.svg"

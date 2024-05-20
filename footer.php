@@ -91,7 +91,15 @@
             <b class="relative leading-[26.25px] mix-blend-normal"
               >Liens Utiles</b
             >
-            <div
+            <?php
+              wp_nav_menu(array(
+                'theme_location' => 'liens-utils',
+                'menu_id' => 'liens-utils',
+                'container' => 'ul',
+                'menu_class' => ' liens-utils m-0 flex flex-col items-start justify-start gap-[8px] text-base-2 text-darkslategray-100  font-semibold',
+              ));
+              ?>
+            <!-- <div
               class="flex flex-col items-start justify-start gap-[8px] text-base-2 text-darkslategray-100 font-poppins"
             >
               <div
@@ -124,18 +132,26 @@
               >
                 Produits
               </div>
-              <!-- <div
+               <div
                 class="relative leading-[22.21px] font-medium mix-blend-normal"
               >
                 Actualitées
-              </div> -->
-            </div>
-          </div>
+              </div> 
+            </div>-->
+          </div> 
           <div class="flex flex-col items-start justify-start gap-[19px]">
             <b class="relative leading-[26.25px] mix-blend-normal"
-              >Liens Utiles</b
+              >Pages légales</b
             >
-            <div
+            <?php
+              wp_nav_menu(array(
+                'theme_location' => 'pages-légales',
+                'menu_id' => 'pages-légales',
+                'container' => 'ul',
+                'menu_class' => ' pages-légales m-0 flex flex-col items-start justify-start gap-[8px] text-base-2 text-darkslategray-100 font-semibold',
+              ));
+              ?>
+            <!-- <div
               class="flex flex-col items-start justify-start gap-[8px] text-base-2 text-darkslategray-100 font-poppins"
             >
               <div
@@ -158,12 +174,12 @@
               >
                 Produits
               </div>
-              <!-- <div
+               <div
                 class="relative leading-[22.21px] font-medium mix-blend-normal"
               >
                 Actualitées
-              </div> -->
-            </div>
+              </div> 
+            </div> -->
           </div>
           <div class="flex flex-col items-start justify-start gap-[17px]">
             <b class="relative leading-[26.25px] mix-blend-normal"

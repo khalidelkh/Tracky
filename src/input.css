@@ -73,6 +73,18 @@ ul {
 }
 
 .page {
-  margin:0 !important
+  margin:0 !important;
 }
+ul#header-menu a{
+  color: #fff;
+}
+
+ul#liens-utils a{
+  color: rgb(69 69 77);
+}
+
+ul#pages-légales a{
+  color: rgb(69 69 77);
+}
+
 
