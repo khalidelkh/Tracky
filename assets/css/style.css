@@ -561,10 +561,6 @@ button{
   margin-bottom: auto;
 }
 
-.\!ml-10{
-  margin-left: 2.5rem !important;
-}
-
 .\!ml-20{
   margin-left: 5rem !important;
 }
@@ -711,14 +707,6 @@ button{
 
 .mt-\[-9px\]{
   margin-top: -9px;
-}
-
-.\!ml-6{
-  margin-left: 1.5rem !important;
-}
-
-.\!ml-16{
-  margin-left: 4rem !important;
 }
 
 .box-border{
@@ -4572,6 +4560,11 @@ ul#pages-légales a{
   font-weight: 700;
 }
 
+.hover\:\!text-white:hover{
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+}
+
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -4589,6 +4582,10 @@ ul#pages-légales a{
 .hover\:before\:text-center:hover::before{
   content: var(--tw-content);
   text-align: center;
+}
+
+.visited\:hover\:text-white:hover:visited{
+  color: rgb(255 255 255 );
 }
 
 .focus\:ring-sky-500:focus{
