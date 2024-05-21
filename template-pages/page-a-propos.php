@@ -117,11 +117,11 @@ get_header();
           <button
             class="w-[194.9px] rounded-[1.67px] bg-cornflowerblue-100 h-[58.6px] flex flex-col items-center justify-center text-base-2 text-white"
           >
-            <div
-              class="relative leading-[22.21px] font-semibold mix-blend-normal"
+            <a href="/contact"
+              class="relative leading-[22.21px] font-bold mix-blend-normal !text-white hover:text-white"
             >
               Demande un devis
-            </div>
+            </a>
           </button>
         </div>
       </section>
@@ -157,11 +157,11 @@ get_header();
             <button
               class="cursor-pointer [border:none] p-0 bg-cornflowerblue-100 w-[194.9px] rounded-[1.67px] h-[58.6px] flex flex-col items-center justify-center"
             >
-              <span
-                class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+              <a href="/solution-web"
+                class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
               >
                 Nos Solutions
-              </span>
+                </a>
             </button>
           </div>
 
@@ -321,8 +321,8 @@ get_header();
                   boitiers, l’installation se fait par vos soins.
                 </p>
                 <a
-                  href="#"
-                  class="justify-center self-start px-10 py-5 mt-14 text-base font-bold leading-6 text-white bg-sky-500 rounded-sm max-md:px-5 max-md:mt-10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 hover:text-white"
+                  href="/secteur"
+                  class="justify-center self-start px-10 py-5 mt-14 text-base font-bold leading-6 !text-white bg-sky-500 rounded-sm max-md:px-5 max-md:mt-10  focus:ring-sky-500 hover:text-white !outline-none"
                 >
                   En savoir plus
                 </a>
@@ -376,20 +376,20 @@ get_header();
               <button
                 class="cursor-pointer p-0 bg-cornflowerblue-100 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
               >
-                <div
-                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+                <a href="/solution-web"
+                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                 >
                   En savoir plus
-                </div>
+                </a>
               </button>
               <button
                 class="cursor-pointer p-0 bg-cornflowerblue-200 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
               >
-                <div
-                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+                <a href="/contact"
+                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                 >
                   Demande un devis
-                </div>
+                </a>
               </button>
             </div>
           </div>

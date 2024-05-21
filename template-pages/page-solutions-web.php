@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Solution web*/
+/* Template Name: Solutions web*/
 get_header();
 ?>
  <h1 class="mt-24 text-35xl-5 font-bold leading-[60.69px] text-white">
@@ -15,7 +15,7 @@ get_header();
           <div
             class="mt-24 flex gap-2.5 text-lg leading-6 whitespace-nowrap max-md:mt-10"
           >
-            <a href="#" class="text-cornflowerblue-100">Home</a>
+            <a href="#" class="!text-cornflowerblue-100">Home</a>
             <img
               loading="lazy"
               src="<?= get_template_directory_uri() ?>/assets/images/icons/double-chevron.svg"
@@ -74,7 +74,7 @@ get_header();
                   boîtiers, l’installation se fait par vos soins.
                 </p>
                 <a
-                  href="#"
+                  href="/secteur"
                   class="block text-center px-10 py-5 mt-14 text-base font-bold leading-6 !text-white bg-cornflowerblue-100 rounded-sm max-md:px-5 max-md:mt-10 hover:text-white"
                   >En savoir plus</a
                 >
@@ -232,7 +232,7 @@ get_header();
           Nous vous offrons des solutions sur mesure pour le kilomètrage
           parcouru, la consommation de l'historique des trajets...
         </p>
-        <a href="/demende-un-devis"
+        <a href="/contact"
           class="justify-center mb-36 z-10 px-10 py-7 mt-12 text-xl font-bold leading-7 !text-white bg-cornflowerblue-100 rounded-sm shadow-lg max-md:px-5 max-md:mt-10 hover:text-white"
           tabindex="0"
           >DEMANDEZ UN DEVIS</a
@@ -464,20 +464,20 @@ get_header();
               <button
                 class="cursor-pointer p-0 bg-cornflowerblue-100 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
               >
-                <div
-                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+                <a href="/solution-web"
+                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                 >
                   En savoir plus
-                </div>
+                </a>
               </button>
               <button
                 class="cursor-pointer p-0 bg-cornflowerblue-200 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
               >
-                <div
-                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+                <a href="/contact"
+                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                 >
                   Demande un devis
-                </div>
+                </a>
               </button>
             </div>
           </div>

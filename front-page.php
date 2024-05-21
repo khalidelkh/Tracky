@@ -44,21 +44,21 @@ get_header('home');
                   <button
                     class="cursor-pointer p-0 bg-cornflowerblue-100 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
                   >
-                    <span
-                      class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+                    <a href="/solution-web"
+                      class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                     >
                       En savoir plus
-                    </span>
+                    </a>
                   </button>
-                  <button
+                  <a href="/contact"
                     class="cursor-pointer p-0 bg-cornflowerblue-200 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
                   >
                     <div
-                      class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+                      class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal "
                     >
                       Demande un devis
                     </div>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -249,11 +249,11 @@ get_header('home');
             <button
               class="flex flex-row items-center justify-start gap-[29px] text-base-2 border-none bg-transparent"
             >
-              <div
-                class="relative leading-[22.21px] font-semibold mix-blend-normal text-white"
+              <a href="/secteur"
+                class="relative leading-[22.21px] font-semibold mix-blend-normal !text-white hover:text-white"
               >
                 EN SAVOIR PLUS
-              </div>
+              </a>
               <img
                 class="w-[14.5px] relative h-[12.1px] mix-blend-normal"
                 alt=""
@@ -353,11 +353,11 @@ get_header('home');
           <button
             class="cursor-pointer [border:none] p-0 bg-cornflowerblue-100 w-[194.9px] rounded-[1.67px] h-[58.6px] flex flex-col items-center justify-center"
           >
-            <div
-              class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+            <a href="/solution-web"
+              class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
             >
               En savoir plus
-            </div>
+            </a>
           </button>
         </div>
       </section>
@@ -565,11 +565,11 @@ get_header('home');
               <button
                 class="cursor-pointer [border:none] p-0 bg-cornflowerblue-100 w-[194.9px] rounded-[1.67px] h-[58.6px] flex flex-col items-center justify-center"
               >
-                <div
-                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+                <a href="/solution-web"
+                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                 >
                   En savoir plus
-                </div>
+                </a>
               </button>
             </div>
           </div>
@@ -797,11 +797,11 @@ get_header('home');
             <button
               class="cursor-pointer [border:none] p-0 bg-cornflowerblue-100 w-[194.9px] rounded-[1.67px] h-[58.6px] flex flex-col items-center justify-center"
             >
-              <span
-                class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+              <a href="/produit"
+                class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
               >
                 En savoir plus
-              </span>
+              </a>
             </button>
           </div>
         </div>
@@ -851,20 +851,20 @@ get_header('home');
               <button
                 class="cursor-pointer p-0 bg-cornflowerblue-100 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
               >
-                <div
-                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+                <a href="/solution-web"
+                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                 >
                   En savoir plus
-                </div>
+                </a>
               </button>
               <button
                 class="cursor-pointer p-0 bg-cornflowerblue-200 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
               >
-                <div
-                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+                <a href="/contact"
+                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                 >
                   Demande un devis
-                </div>
+                </a>
               </button>
             </div>
           </div>

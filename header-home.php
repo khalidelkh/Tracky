@@ -178,7 +178,7 @@
               <button
                 class="cursor-pointer p-0 bg-cornflowerblue-100 w-44 xl:w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
               >
-                <a href="/demende-un-devis"
+                <a href="/contact"
                   class="relative text-sm xl:text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                 >
                   Demande un devis
@@ -251,7 +251,7 @@
                 <button
                   class="cursor-pointer p-0 bg-cornflowerblue-100 w-44 xl:w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
                 >
-                  <a href="/demende-un-devis"
+                  <a href="/contact"
                     class="relative text-sm xl:text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                   >
                     Demande un devis

@@ -72,11 +72,11 @@ get_header();
                   système se fait par nos installateurs agréés. Pour les autres
                   boitiers, l’installation se fait par vos soins.
                 </p>
-                <button
-                  class="justify-center self-start px-10 py-5 mt-14 text-base font-bold leading-6 text-white bg-cornflowerblue-100 rounded-sm max-md:px-5 max-md:mt-10"
+                <a href="/secteur"
+                  class="justify-center self-start px-10 py-5 mt-14 text-base font-bold leading-6 !text-white bg-cornflowerblue-100 rounded-sm max-md:px-5 max-md:mt-10 hover:text-white"
                 >
                   En savoir plus
-                </button>
+                </a>
               </section>
             </article>
             <aside class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
@@ -564,20 +564,20 @@ get_header();
               <button
                 class="cursor-pointer p-0 bg-cornflowerblue-100 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
               >
-                <div
-                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+                <a href="/solution-web"
+                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                 >
                   En savoir plus
-                </div>
+                </a>
               </button>
               <button
                 class="cursor-pointer p-0 bg-cornflowerblue-200 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
               >
-                <div
-                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+                <a href="/contact"
+                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                 >
                   Demande un devis
-                </div>
+                </a>
               </button>
             </div>
           </div>

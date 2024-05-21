@@ -49,7 +49,7 @@ get_header();
           class="mt-8 aspect-[20] fill-cornflowerblue-100 w-[61px]"
         />
         <p
-          class="mt-8 max-w-4xl w-full font-normal text-sm leading-6 text-ellipsis text-zinc-700 max-md:max-w-full"
+          class="mt-8 max-w-4xl w-full font-normal text-base leading-6 text-ellipsis text-zinc-700 max-md:max-w-full"
         >
           Toutes les contraintes et besoins que nécessite le transport de
           marchandises ont été étudiés par nos équipes pour arriver à satisfaire
@@ -255,20 +255,20 @@ get_header();
               <button
                 class="cursor-pointer p-0 bg-cornflowerblue-100 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
               >
-                <div
-                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+                <a href="/solution-web"
+                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                 >
                   En savoir plus
-                </div>
+                </a>
               </button>
               <button
                 class="cursor-pointer p-0 bg-cornflowerblue-200 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
               >
-                <div
-                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal"
+                <a href="/contact"
+                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                 >
                   Demande un devis
-                </div>
+                </a>
               </button>
             </div>
           </div>
