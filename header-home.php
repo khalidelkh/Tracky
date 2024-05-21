@@ -35,7 +35,7 @@
             />
 
             <a href="mailto:<?= get_theme_mod('contact_email', 'info@tracky.com') ?>"
-              class="relative leading-[20.19px] font-medium mix-blend-normal text-white hover:text-white"
+              class="relative leading-[20.19px] font-medium mix-blend-normal !text-white hover:text-white visited:hover:text-white"
             >
             <?= get_theme_mod('contact_email', 'info@tracky.com') ?>
             </a>
