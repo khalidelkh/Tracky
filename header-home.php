@@ -91,7 +91,7 @@
 
             <!-- * ---- Desktop menu ---- * -->
             <div
-              class="hidden lg:flex flex-row flex-1 items-center justify-between !ml-10"
+              class="hidden lg:flex flex-row flex-1 items-center justify-between !ml-16"
             >
             <?php
               wp_nav_menu(array(
