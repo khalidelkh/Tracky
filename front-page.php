@@ -276,7 +276,7 @@ get_header('home');
             <img
               class="max-w-[525px] relative max-h-[565.4px] w-full h-full object-cover"
               alt=""
-              src="<?= get_template_directory_uri() ?>/assets/images/img@2x.png"
+              src="<?= get_template_directory_uri() ?>/assets/images/img_2x-min.webp"
             />
           </div>
           <div
@@ -285,7 +285,7 @@ get_header('home');
             <img
               class="max-w-[272.6px] relative max-h-[323.1px] w-full h-full object-cover"
               alt=""
-              src="<?= get_template_directory_uri() ?>/assets/images/img@2x.png"
+              src="<?= get_template_directory_uri() ?>/assets/images/img_2x-min.webp"
             />
           </div>
         </div>
@@ -404,7 +404,7 @@ get_header('home');
               <!-- Swiper wrapper -->
               <div class="swiper-wrapper h-full w-full">
                 <div
-                  class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0 pb-[50px] pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407@3x.png')] bg-cover bg-no-repeat bg-[top]"
+                  class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0 pb-[50px] pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407_3x-min.webp')] bg-cover bg-no-repeat bg-[top]"
                 >
                   <div
                     class="relative leading-[26.25px] font-semibold mix-blend-normal"
@@ -426,7 +426,7 @@ get_header('home');
                 </div>
 
                 <div
-                  class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0 pb-[50px] pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407@3x.png')] bg-cover bg-no-repeat bg-[top]"
+                  class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0 pb-[50px] pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407_3x-min.webp')] bg-cover bg-no-repeat bg-[top]"
                 >
                   <div
                     class="relative leading-[26.25px] font-semibold mix-blend-normal"
@@ -448,7 +448,7 @@ get_header('home');
                 </div>
 
                 <div
-                  class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0 pb-[50px] pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407@3x.png')] bg-cover bg-no-repeat bg-[top]"
+                  class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0 pb-[50px] pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407_3x-min.webp')] bg-cover bg-no-repeat bg-[top]"
                 >
                   <div
                     class="relative leading-[26.25px] font-semibold mix-blend-normal"
@@ -470,7 +470,7 @@ get_header('home');
                 </div>
 
                 <div
-                  class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0 pb-[50px] pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407@3x.png')] bg-cover bg-no-repeat bg-[top]"
+                  class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0 pb-[50px] pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407_3x-min.webp')] bg-cover bg-no-repeat bg-[top]"
                 >
                   <div
                     class="relative leading-[26.25px] font-semibold mix-blend-normal"
@@ -809,7 +809,7 @@ get_header('home');
       
       <!-- * Do good * -->
       <section
-        class="self-stretch min-h-[632px] flex flex-col items-start justify-center box-border gap-[23px] bg-[url('/wp-content/themes/tracky/assets/images/rejoignez-notre-rseau@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins"
+        class="self-stretch min-h-[632px] flex flex-col items-start justify-center box-border gap-[23px] bg-[url('/wp-content/themes/tracky/assets/images/rejoignez-notre-rseau_3x-min.webp')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins"
       >
         <div
           class="flex flex-col items-start py-16 justify-center box-border w-full max-w-screen-xl px-5 mx-auto"

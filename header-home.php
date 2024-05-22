@@ -78,7 +78,7 @@
       </div>
 	        <!-- * ----- Header & Banner ------ * -->
 			<section
-        class="self-stretch min-h-[1050px] flex flex-col items-center justify-start gap-[154px] bg-[url('/wp-content/themes/tracky/assets/images/frame-376@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins"
+        class="self-stretch min-h-[1050px] flex flex-col items-center justify-start gap-[154px] bg-[url('/wp-content/themes/tracky/assets/images/frame-376_3x-min.webp')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins"
       >
         <div
           class="w-full relative flex max-w-screen-xl mt-5 lg:mt-0 px-5 xl:px-0 flex-col gap-28 xl:gap-y-44 items-center"
@@ -164,7 +164,7 @@
                     src="<?= get_template_directory_uri() ?>/assets/images/vector1.svg"
                   />
                 </div>
-                 <!-- <div
+                  <div
                   class="relative leading-[22.21px] font-semibold mix-blend-normal"
                 >
                   Actualitées

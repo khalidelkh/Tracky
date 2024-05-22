@@ -60,7 +60,8 @@ get_header();
             alt="Decorative image related to contact"
             class="self-stretch mt-24 w-full aspect-[2.63] max-md:mt-10 max-md:max-w-full"
           />
-          <form
+          <?= do_shortcode('[contact-form-7 id="d2481f4" title="Demander un devis"]') ?>
+          <!-- <form
             class="md:-mt-24 grid gap-6 z-10 px-14 py-16 text-base leading-6 bg-white w-full rounded max-w-[883px] max-md:px-0"
           >
             <h2
@@ -171,7 +172,7 @@ get_header();
             >
               ENVOYER
             </button>
-          </form>
+          </form> -->
         </div>
       </section>
 
