@@ -575,7 +575,7 @@ get_header('home');
           </div>
 
           <div
-            class="max-w-[416px] h-[504px] w-full flex flex-row items-center justify-center bg-[url('/wp-content/themes/tracky/assets/images/frame-421@3x.png')] bg-cover bg-no-repeat bg-[top]"
+            class="max-w-[416px] h-[504px] w-full flex flex-row items-center justify-center bg-[url('/wp-content/themes/tracky/assets/images/frame-421@3x.webp')] bg-cover bg-no-repeat bg-[top]"
           >
             <div
               class="w-[101px] rounded-81xl bg-cornflowerblue-100 h-[101px] flex flex-row items-center justify-center"
@@ -718,7 +718,7 @@ get_header('home');
                 <img
                   class="w-[302.9px] h-[302.9px] object-cover"
                   alt=""
-                  src="<?= get_template_directory_uri() ?>/assets/images/frame-441@2x.png"
+                  src="<?= get_template_directory_uri() ?>/assets/images/frame-441@2x.webp"
                 />
 
                 <div class="flex flex-col items-center justify-start gap-[1px]">
@@ -738,7 +738,7 @@ get_header('home');
                 <img
                   class="w-[302.9px] h-[302.9px] object-cover"
                   alt=""
-                  src="<?= get_template_directory_uri() ?>/assets/images/frame-441@2x.png"
+                  src="<?= get_template_directory_uri() ?>/assets/images/frame-441@2x.webp"
                 />
 
                 <div class="flex flex-col items-center justify-start gap-[1px]">
@@ -758,7 +758,7 @@ get_header('home');
                 <img
                   class="w-[302.9px] h-[302.9px] object-cover"
                   alt=""
-                  src="<?= get_template_directory_uri() ?>/assets/images/frame-441@2x.png"
+                  src="<?= get_template_directory_uri() ?>/assets/images/frame-441@2x.webp"
                 />
 
                 <div class="flex flex-col items-center justify-start gap-[1px]">
@@ -778,7 +778,7 @@ get_header('home');
                 <img
                   class="w-[302.9px] h-[302.9px] object-cover"
                   alt=""
-                  src="<?= get_template_directory_uri() ?>/assets/images/frame-441@2x.png"
+                  src="<?= get_template_directory_uri() ?>/assets/images/frame-441@2x.webp"
                 />
 
                 <div class="flex flex-col items-center justify-start gap-[1px]">
@@ -1001,7 +1001,7 @@ get_header('home');
           <img
             class="max-w-[505px] max-h-[435px] xl:max-w-[605.8px] xl:max-h-[535.1px] w-full h-full object-cover z-[0] lg:ml-[-50px]"
             alt=""
-            src="<?= get_template_directory_uri() ?>/assets/images/frame-460@2x.png"
+            src="<?= get_template_directory_uri() ?>/assets/images/frame-460@2x.webp"
           />
         </div>
       </section>
@@ -1032,7 +1032,7 @@ get_header('home');
         >
           <div class="flex w-full flex-col items-start justify-center">
             <div
-              class="max-w-[414px] w-full h-[252.4px] flex flex-col items-end justify-start pt-5 pb-0 pr-5 pl-0 box-border bg-[url('/wp-content/themes/tracky/assets/images/frame-465@3x.png')] bg-cover bg-no-repeat bg-[top]"
+              class="max-w-[414px] w-full h-[252.4px] flex flex-col items-end justify-start pt-5 pb-0 pr-5 pl-0 box-border bg-[url('/wp-content/themes/tracky/assets/images/frame-465@3x.webp')] bg-cover bg-no-repeat bg-[top]"
             >
               <div
                 class="w-[132.3px] rounded-[1.67px] bg-cornflowerblue-100 h-[40.4px] flex flex-col items-center justify-center"
@@ -1111,7 +1111,7 @@ get_header('home');
 
           <div class="flex w-full flex-col items-start justify-center">
             <div
-              class="max-w-[414px] w-full h-[252.4px] flex flex-col items-end justify-start pt-5 pb-0 pr-5 pl-0 box-border bg-[url('/wp-content/themes/tracky/assets/images/frame-465@3x.png')] bg-cover bg-no-repeat bg-[top]"
+              class="max-w-[414px] w-full h-[252.4px] flex flex-col items-end justify-start pt-5 pb-0 pr-5 pl-0 box-border bg-[url('/wp-content/themes/tracky/assets/images/frame-465@3x.webp')] bg-cover bg-no-repeat bg-[top]"
             >
               <div
                 class="w-[132.3px] rounded-[1.67px] bg-cornflowerblue-100 h-[40.4px] flex flex-col items-center justify-center"
@@ -1190,7 +1190,7 @@ get_header('home');
 
           <div class="flex w-full flex-col items-start justify-center">
             <div
-              class="max-w-[414px] w-full h-[252.4px] flex flex-col items-end justify-start pt-5 pb-0 pr-5 pl-0 box-border bg-[url('/wp-content/themes/tracky/assets/images/frame-465@3x.png')] bg-cover bg-no-repeat bg-[top]"
+              class="max-w-[414px] w-full h-[252.4px] flex flex-col items-end justify-start pt-5 pb-0 pr-5 pl-0 box-border bg-[url('/wp-content/themes/tracky/assets/images/frame-465@3x.webp')] bg-cover bg-no-repeat bg-[top]"
             >
               <div
                 class="w-[132.3px] rounded-[1.67px] bg-cornflowerblue-100 h-[40.4px] flex flex-col items-center justify-center"

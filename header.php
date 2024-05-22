@@ -80,7 +80,7 @@
       >
         <img
           loading="lazy"
-          src="<?= get_template_directory_uri() ?>/assets/images/bgs/bg-banner.png"
+          src="<?= get_template_directory_uri() ?>/assets/images/bgs/bg-banner.webp"
           alt=""
           class="absolute inset-0 object-cover size-full"
         />

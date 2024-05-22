@@ -213,7 +213,7 @@ get_header();
 
                         <!-- * Do good * -->
                         <section
-        class="self-stretch min-h-[632px] flex flex-col items-start justify-center box-border gap-[23px] bg-[url('/wp-content/themes/tracky/assets/images/rejoignez-notre-rseau@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins"
+        class="self-stretch min-h-[632px] flex flex-col items-start justify-center box-border gap-[23px] bg-[url('/wp-content/themes/tracky/assets/images/rejoignez-notre-rseau@3x.webp')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins"
       >
         <div
           class="flex flex-col items-start py-16 justify-center box-border w-full max-w-screen-xl px-5 mx-auto"
@@ -405,7 +405,7 @@ get_header();
           <img
             class="max-w-[505px] max-h-[435px] xl:max-w-[605.8px] xl:max-h-[535.1px] w-full h-full object-cover z-[0] lg:ml-[-50px]"
             alt=""
-            src="<?= get_template_directory_uri() ?>/assets/images/frame-460@2x.png"
+            src="<?= get_template_directory_uri() ?>/assets/images/frame-460@2x.webp"
           />
         </div>
       </section>

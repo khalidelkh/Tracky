@@ -32,7 +32,7 @@ get_header();
         class="self-stretch max-w-screen-xl w-full px-5 mx-auto min-h-[854px] flex flex-col py-20 lg:py-0 lg:flex-row items-center justify-center gap-[82px] text-left text-lg text-cornflowerblue-100 font-poppins"
       >
         <div
-          class="max-w-[616px] h-[356px] sm:h-[456px] lg:h-[565px] min-w-72 w-full flex flex-col items-start justify-start relative bg-[url('/wp-content/themes/tracky/assets/images/pages/secteur/truck.png')] bg-cover bg-no-repeat bg-[top]"
+          class="max-w-[616px] h-[356px] sm:h-[456px] lg:h-[565px] min-w-72 w-full flex flex-col items-start justify-start relative bg-[url('/wp-content/themes/tracky/assets/images/pages/secteur/truck.webp')] bg-cover bg-no-repeat bg-[top]"
         >
           <img
             class="w-[117.2px] !m-[0] absolute top-[-46px] -right-10 h-[123.7px] object-cover z-[0]"
@@ -107,7 +107,7 @@ get_header();
         class="self-stretch min-h-[851px] flex flex-col items-center justify-start pt-[110px] px-0 pb-0 box-border relative gap-[118px] text-center text-xl text-cornflowerblue-100 font-poppins"
       >
         <div
-          class="w-full m-0 absolute top-0 bg-[url('/wp-content/themes/tracky/assets/images/bgs/bg-secteur-difference.png')] bg-no-repeat bg-cover h-full xl:h-auto xl:bottom-20 left-0 max-h-full object-cover z-[0]"
+          class="w-full m-0 absolute top-0 bg-[url('/wp-content/themes/tracky/assets/images/bgs/bg-secteur-difference.webp')] bg-no-repeat bg-cover h-full xl:h-auto xl:bottom-20 left-0 max-h-full object-cover z-[0]"
           alt=""
         ></div>
 
@@ -419,7 +419,7 @@ get_header();
             <img
               class="w-full h-full object-cover"
               alt=""
-              src="<?= get_template_directory_uri() ?>/assets/images/pages/secteur/votre-app.png"
+              src="<?= get_template_directory_uri() ?>/assets/images/pages/secteur/votre-app.webp"
             />
           </div>
 
@@ -617,7 +617,7 @@ get_header();
         <div class="max-w-[600px] max-h-[580px]">
           <img
             class="h-full w-full"
-            src="<?= get_template_directory_uri() ?>/assets/images/pages/secteur/track-gps-logo.png"
+            src="<?= get_template_directory_uri() ?>/assets/images/pages/secteur/track-gps-logo.webp"
             alt=""
           />
         </div>
@@ -705,7 +705,7 @@ get_header();
 
             <!-- * Do good * -->
             <section
-        class="self-stretch min-h-[632px] flex flex-col items-start justify-center box-border gap-[23px] bg-[url('/wp-content/themes/tracky/assets/images/rejoignez-notre-rseau@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins"
+        class="self-stretch min-h-[632px] flex flex-col items-start justify-center box-border gap-[23px] bg-[url('/wp-content/themes/tracky/assets/images/rejoignez-notre-rseau@3x.webp')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins"
       >
         <div
           class="flex flex-col items-start py-16 justify-center box-border w-full max-w-screen-xl px-5 mx-auto"
@@ -897,7 +897,7 @@ get_header();
           <img
             class="max-w-[505px] max-h-[435px] xl:max-w-[605.8px] xl:max-h-[535.1px] w-full h-full object-cover z-[0] lg:ml-[-50px]"
             alt=""
-            src="<?= get_template_directory_uri() ?>/assets/images/frame-460@2x.png"
+            src="<?= get_template_directory_uri() ?>/assets/images/frame-460@2x.webp"
           />
         </div>
       </section>

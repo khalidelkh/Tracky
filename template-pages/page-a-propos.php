@@ -32,7 +32,7 @@ get_header();
         class="self-stretch py-16 xl:py-0 px-5 xl:px-0 max-w-screen-xl mx-auto w-full min-h-[1026px] flex flex-col lg:flex-row items-center justify-center gap-[61px] text-left text-xl text-midnightblue font-work-sans"
       >
         <div
-          class="max-w-[603px] w-full h-[464px] xl:h-[664px] flex flex-row items-end justify-start pt-0 pb-[50px] pr-0 pl-[30px] box-border bg-[url('/wp-content/themes/tracky/assets/images/pages/about/truck-3.png')] bg-cover bg-no-repeat bg-[top]"
+          class="max-w-[603px] w-full h-[464px] xl:h-[664px] flex flex-row items-end justify-start pt-0 pb-[50px] pr-0 pl-[30px] box-border bg-[url('/wp-content/themes/tracky/assets/images/pages/about/truck-3.webp')] bg-cover bg-no-repeat bg-[top]"
         >
           <div
             class="w-[271.5px] rounded-[3.33px] bg-white h-[125.7px] flex flex-col items-start justify-center py-0 pr-0 pl-[30px] box-border gap-[12px]"
@@ -132,7 +132,7 @@ get_header();
       >
         <div class="relative -mt-10 max-w-screen-xl mx-auto z-[2]">
           <div
-            class="w-full mb-24 px-5 gap-5 lg:gap-10 flex-wrap shadow-lg lg:border border-solid border-gray-50 lg:px-10 2xl:px-20 py-10 flex items-center justify-between bg-[url('/wp-content/themes/tracky/assets/images/bgs/bg-wave-lines.png')] bg-no-repeat bg-center"
+            class="w-full mb-24 px-5 gap-5 lg:gap-10 flex-wrap shadow-lg lg:border border-solid border-gray-50 lg:px-10 2xl:px-20 py-10 flex items-center justify-between bg-[url('/wp-content/themes/tracky/assets/images/bgs/bg-wave-lines.webp')] bg-no-repeat bg-center"
           >
             <div class="flex flex-col items-start justify-start">
               <div class="flex flex-col items-start justify-start gap-[6px]">
@@ -248,7 +248,7 @@ get_header();
 
         <!-- * Video * -->
         <div
-          class="max-w-screen-xl w-full mt-16 aspect-video max-h-[750px] relative z-20 mx-auto flex flex-col items-center justify-center bg-[url('/wp-content/themes/tracky/assets/images/bgs/bg-video.png')] bg-cover bg-no-repeat bg-[top]"
+          class="max-w-screen-xl w-full mt-16 aspect-video max-h-[750px] relative z-20 mx-auto flex flex-col items-center justify-center bg-[url('/wp-content/themes/tracky/assets/images/bgs/bg-video.webp')] bg-cover bg-no-repeat bg-[top]"
         >
           <div
             class="w-[101px] rounded-81xl bg-cornflowerblue-100 h-[101px] flex flex-row items-center justify-center"
@@ -264,7 +264,7 @@ get_header();
         <img
           class=" !m-[0] h-full absolute top-[50px] left-0 right-0 max-h-[994px] object-cover z-[0]"
           alt=""
-          src="<?= get_template_directory_uri() ?>/assets/images/bgs/bg-our-solutions.png"
+          src="<?= get_template_directory_uri() ?>/assets/images/bgs/bg-our-solutions.webp"
         />
       </section>
 
@@ -334,7 +334,7 @@ get_header();
 
             <!-- * Do good * -->
             <section
-        class="self-stretch min-h-[632px] flex flex-col items-start justify-center box-border gap-[23px] bg-[url('/wp-content/themes/tracky/assets/images/rejoignez-notre-rseau@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins"
+        class="self-stretch min-h-[632px] flex flex-col items-start justify-center box-border gap-[23px] bg-[url('/wp-content/themes/tracky/assets/images/rejoignez-notre-rseau@3x.webp')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins"
       >
         <div
           class="flex flex-col items-start py-16 justify-center box-border w-full max-w-screen-xl px-5 mx-auto"
@@ -529,7 +529,7 @@ get_header();
           <img
             class="max-w-[505px] max-h-[435px] xl:max-w-[605.8px] xl:max-h-[535.1px] w-full h-full object-cover z-[0] lg:ml-[-50px]"
             alt=""
-            src="<?= get_template_directory_uri() ?>/assets/images/frame-460@2x.png"
+            src="<?= get_template_directory_uri() ?>/assets/images/frame-460@2x.webp"
           />
         </div>
       </section>

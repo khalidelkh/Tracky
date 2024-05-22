@@ -19,31 +19,31 @@
           <img
             class="w-[212px] h-[99px] object-cover"
             alt=""
-            src="<?= get_template_directory_uri() ?>/assets/images/frame-351@2x.png"
+            src="<?= get_template_directory_uri() ?>/assets/images/frame-351@2x.webp"
           />
 
           <img
             class="w-[212px] h-[99px] object-cover"
             alt=""
-            src="<?= get_template_directory_uri() ?>/assets/images/frame-352@2x.png"
+            src="<?= get_template_directory_uri() ?>/assets/images/frame-352@2x.webp"
           />
 
           <img
             class="w-[212px] h-[99px] object-cover"
             alt=""
-            src="<?= get_template_directory_uri() ?>/assets/images/frame-358@2x.png"
+            src="<?= get_template_directory_uri() ?>/assets/images/frame-358@2x.webp"
           />
 
           <img
             class="w-[212px] h-[99px] object-cover"
             alt=""
-            src="<?= get_template_directory_uri() ?>/assets/images/frame-354@2x.png"
+            src="<?= get_template_directory_uri() ?>/assets/images/frame-354@2x.webp"
           />
 
           <img
             class="w-[212px] h-[99px] object-cover"
             alt=""
-            src="<?= get_template_directory_uri() ?>/assets/images/frame-357@2x.png"
+            src="<?= get_template_directory_uri() ?>/assets/images/frame-357@2x.webp"
           />
         </div>
 
@@ -56,7 +56,7 @@
             <img
               class="w-[171.8px] h-[49.7px] object-cover"
               alt=""
-              src="<?= get_template_directory_uri() ?>/assets/images/frame-359@2x.png"
+              src="<?= get_template_directory_uri() ?>/assets/images/frame-359@2x.webp"
             />
 
             <div class="flex flex-col items-start justify-start gap-[15px]">

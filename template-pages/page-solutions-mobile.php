@@ -82,7 +82,7 @@ get_header();
             <aside class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
               <img
                 loading="lazy"
-                src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-mobile/mobil-mockup-1.png"
+                src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-mobile/mobil-mockup-1.webp"
                 alt="Description of image"
                 class="grow w-full aspect-[0.78] max-h-[650px] object-contain max-md:mt-10 max-md:max-w-full"
               />
@@ -165,7 +165,7 @@ get_header();
               <div class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
                 <img
                   loading="lazy"
-                  src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-mobile/mobile-mockup-2.png"
+                  src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-mobile/mobile-mockup-2.webp"
                   alt=""
                   class="grow object-contain w-full max-h-[650px] aspect-[0.68] max-md:mt-10"
                 />
@@ -313,7 +313,7 @@ get_header();
                   <div class="swiper-slide">
                     <img
                       loading="lazy"
-                      src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-mobile/screen-1.png"
+                      src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-mobile/screen-1.webp"
                       alt="App Screenshot 1"
                       class="shrink-0 mt-9 max-w-full aspect-[0.46]"
                     />
@@ -322,7 +322,7 @@ get_header();
                   <div class="swiper-slide">
                     <img
                       loading="lazy"
-                      src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-mobile/screen-2.png"
+                      src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-mobile/screen-2.webp"
                       alt="App Screenshot 2"
                       class="shrink-0 self-start max-w-full aspect-[0.47]"
                     />
@@ -331,7 +331,7 @@ get_header();
                   <div class="swiper-slide">
                     <img
                       loading="lazy"
-                      src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-mobile/screen-3.png"
+                      src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-mobile/screen-3.webp"
                       alt="App Screenshot 3"
                       class="shrink-0 mt-9 max-w-full aspect-[0.46]"
                     />
@@ -340,7 +340,7 @@ get_header();
                   <div class="swiper-slide">
                     <img
                       loading="lazy"
-                      src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-mobile/screen-4.png"
+                      src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-mobile/screen-4.webp"
                       alt="App Screenshot 4"
                       class="shrink-0 self-start max-w-full aspect-[0.47]"
                     />
@@ -349,7 +349,7 @@ get_header();
                   <div class="swiper-slide">
                     <img
                       loading="lazy"
-                      src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-mobile/screen-5.png"
+                      src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-mobile/screen-5.webp"
                       alt="App Screenshot 5"
                       class="shrink-0 mt-9 max-w-full aspect-[0.47]"
                     />
@@ -366,7 +366,7 @@ get_header();
         <img
           class="absolute top-[246px] left-[0px] right-0 h-[1226px] object-cover z-[0]"
           alt=""
-          src="<?= get_template_directory_uri() ?>/assets/images/bgs/bg-mobile.png"
+          src="<?= get_template_directory_uri() ?>/assets/images/bgs/bg-mobile.webp"
         />
       </section>
 
@@ -465,7 +465,7 @@ get_header();
             <img
               class="w-full h-full object-cover"
               alt=""
-              src="<?= get_template_directory_uri() ?>/assets/images/pages/secteur/votre-app.png"
+              src="<?= get_template_directory_uri() ?>/assets/images/pages/secteur/votre-app.webp"
             />
           </div>
 
@@ -522,7 +522,7 @@ get_header();
 
                   <!-- * Do good * -->
                   <section
-        class="self-stretch min-h-[632px] flex flex-col items-start justify-center box-border gap-[23px] bg-[url('/wp-content/themes/tracky/assets/images/rejoignez-notre-rseau@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins"
+        class="self-stretch min-h-[632px] flex flex-col items-start justify-center box-border gap-[23px] bg-[url('/wp-content/themes/tracky/assets/images/rejoignez-notre-rseau@3x.webp')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins"
       >
         <div
           class="flex flex-col items-start py-16 justify-center box-border w-full max-w-screen-xl px-5 mx-auto"
@@ -714,7 +714,7 @@ get_header();
           <img
             class="max-w-[505px] max-h-[435px] xl:max-w-[605.8px] xl:max-h-[535.1px] w-full h-full object-cover z-[0] lg:ml-[-50px]"
             alt=""
-            src="<?= get_template_directory_uri() ?>/assets/images/frame-460@2x.png"
+            src="<?= get_template_directory_uri() ?>/assets/images/frame-460@2x.webp"
           />
         </div>
       </section>

@@ -56,7 +56,7 @@ get_header();
           </p>
           <img
             loading="lazy"
-            src="<?= get_template_directory_uri() ?>/assets/images/pages/demande-devis/demende-devis-image.png"
+            src="<?= get_template_directory_uri() ?>/assets/images/pages/demande-devis/demende-devis-image.webp"
             alt="Decorative image related to contact"
             class="self-stretch mt-24 w-full aspect-[2.63] max-md:mt-10 max-md:max-w-full"
           />

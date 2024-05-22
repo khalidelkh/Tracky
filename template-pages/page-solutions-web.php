@@ -83,7 +83,7 @@ get_header();
             <div class="flex flex-col ml-5 w-3/5 max-md:ml-0 max-md:w-full">
               <img
                 loading="lazy"
-                src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-web/mockup-laptop.png"
+                src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-web/mockup-laptop.webp"
                 alt="Image related to transport de marchandise"
                 class="grow w-full aspect-[1.64] object-contain max-md:mt-9 max-md:max-w-full"
               />
@@ -164,7 +164,7 @@ get_header();
             <figure class="flex flex-col m-0 w-[33%] max-md:ml-0 max-md:w-full">
               <img
                 loading="lazy"
-                src="<?= get_template_directory_uri() ?>/assets/images/logo/logo-without-text.png"
+                src="<?= get_template_directory_uri() ?>/assets/images/logo/logo-without-text.webp"
                 class="self-stretch m-auto object-contain w-full aspect-[1.23] max-md:mt-10"
                 alt=""
               />
@@ -217,7 +217,7 @@ get_header();
       >
         <img
           loading="lazy"
-          src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-web/mockup-tablet-2.png"
+          src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-web/mockup-tablet-2.webp"
           class="relative z-10 w-full aspect-[1.45] max-w-[1164px]"
           alt=""
         />
@@ -239,7 +239,7 @@ get_header();
         >
         <img
           loading="lazy"
-          src="<?= get_template_directory_uri() ?>/assets/images/bgs/bg-roades.png"
+          src="<?= get_template_directory_uri() ?>/assets/images/bgs/bg-roades.webp"
           class="absolute object-cover top-1/3 min-h-[700px] md:top-[45%] lg:top-[45%] xl:top-1/2 -translate-y-1/2 -z-1 self-stretch mt-0 w-full aspect-[1.56] max-md:mt-0 max-md:max-w-full"
           alt=""
         />
@@ -262,7 +262,7 @@ get_header();
             </p>
             <img
               loading="lazy"
-              src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-web/mockup-tablette-3.png"
+              src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-web/mockup-tablette-3.webp"
               class="mt-20 w-full aspect-[1.56] max-md:mt-10 max-md:max-w-full"
               alt=""
             />
@@ -365,7 +365,7 @@ get_header();
             <img
               class="w-full h-full object-cover"
               alt=""
-              src="<?= get_template_directory_uri() ?>/assets/images/pages/secteur/votre-app.png"
+              src="<?= get_template_directory_uri() ?>/assets/images/pages/secteur/votre-app.webp"
             />
           </div>
 
@@ -422,7 +422,7 @@ get_header();
 
                   <!-- * Do good * -->
                   <section
-        class="self-stretch min-h-[632px] flex flex-col items-start justify-center box-border gap-[23px] bg-[url('/wp-content/themes/tracky/assets/images/rejoignez-notre-rseau@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins"
+        class="self-stretch min-h-[632px] flex flex-col items-start justify-center box-border gap-[23px] bg-[url('/wp-content/themes/tracky/assets/images/rejoignez-notre-rseau@3x.webp')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins"
       >
         <div
           class="flex flex-col items-start py-16 justify-center box-border w-full max-w-screen-xl px-5 mx-auto"
@@ -614,7 +614,7 @@ get_header();
           <img
             class="max-w-[505px] max-h-[435px] xl:max-w-[605.8px] xl:max-h-[535.1px] w-full h-full object-cover z-[0] lg:ml-[-50px]"
             alt=""
-            src="<?= get_template_directory_uri() ?>/assets/images/frame-460@2x.png"
+            src="<?= get_template_directory_uri() ?>/assets/images/frame-460@2x.webp"
           />
         </div>
       </section>
