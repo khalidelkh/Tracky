@@ -132,7 +132,8 @@ get_header();
               </div>
             </div>
             <div class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-              <form
+            <?= do_shortcode('[contact-form-7 id="094316d" title="Contact form 1"]') ?>
+              <!-- <form
                 class="flex flex-col grow lg:px-12 pt-9 pb-12 w-full text-base leading-6 bg-white rounded max-md:mt-10 max-md:max-w-full"
               >
                 <h2
@@ -209,7 +210,7 @@ get_header();
                 >
                   ENVOYER
                 </button>
-              </form>
+              </form> -->
             </div>
           </div>
         </div>
