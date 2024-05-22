@@ -293,4 +293,48 @@ function tracky_customizer_settings($wp_customize)
 }
 add_action('customize_register', 'tracky_customizer_settings');
 
-
+/**
+ * Register Custom Post Type "Annonces"
+ *
+ * @return void
+ */
+function register_avis_post_type()
+{
+	$labels = array(
+		'name'               => _x('Avis', 'Post Type General Name', 'Petween-care'),
+		'singular_name'      => _x('avis', 'Post Type Singular Name', 'Petween-care'),
+		'menu_name'          => __('Avis', 'Petween-care'),
+		'parent_item_colon'  => __('Parent avis:', 'Petween-care'),
+		'all_items'          => __('All Avis', 'Petween-care'),
+		'view_item'          => __('View avis', 'Petween-care'),
+		'add_new_item'       => __('Add New avis', 'Petween-care'),
+		'add_new'            => __('Add New', 'Petween-care'),
+		'edit_item'          => __('Edit avis', 'Petween-care'),
+		'update_item'        => __('Update avis', 'Petween-care'),
+		'search_items'       => __('Search Avis', 'Petween-care'),
+		'not_found'          => __('Not Found', 'Petween-care'),
+		'not_found_in_trash' => __('Not Found in Trash', 'Petween-care'),
+	);
+	$args = array(
+		'label'               => __('avis', 'Petween-care'),
+		'description'         => __('Avis', 'Petween-care'),
+		'labels'              => $labels,
+		'supports'            => array('title', 'editor'),
+		'hierarchical'        => false,
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'menu_icon'           => 'dashicons-media-document',
+		'menu_position'       => 5,
+		'show_in_nav_menus'   => true,
+		'publicly_queryable'  => true,
+		'exclude_from_search' => false,
+		'has_archive'         => true,
+		'query_var'           => true,
+		'can_export'          => true,
+		'rewrite'             => array('slug' => 'Avis'),
+		'capability_type'     => 'post',
+	);
+	register_post_type('avis', $args);
+}
+add_action('init', 'register_avis_post_type');

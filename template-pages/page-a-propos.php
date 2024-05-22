@@ -117,7 +117,7 @@ get_header();
           <button
             class="w-[194.9px] rounded-[1.67px] bg-cornflowerblue-100 h-[58.6px] flex flex-col items-center justify-center text-base-2 text-white"
           >
-            <a href="/contact"
+            <a href="/demende-un-devis"
               class="relative leading-[22.21px] font-bold mix-blend-normal !text-white hover:text-white"
             >
               Demande un devis
@@ -385,7 +385,7 @@ get_header();
               <button
                 class="cursor-pointer p-0 bg-cornflowerblue-200 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
               >
-                <a href="/contact"
+                <a href="/demende-un-devis"
                   class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
                 >
                   Demande un devis
@@ -396,7 +396,8 @@ get_header();
         </div>
       </section>
             <!-- * Avis Clients * -->
-            <section
+            <?php get_template_part('template-section/section-avis-clients'); ?>
+            <!-- <section
         class="self-stretch min-h-[856px] pt-20 xl:pt-0 px-5 xl:px-0 flex flex-row items-end justify-center pb-16 xl:pb-[126px] box-border text-left text-xl-2 text-cornflowerblue-100 font-poppins"
       >
         <div
@@ -532,7 +533,7 @@ get_header();
             src="<?= get_template_directory_uri() ?>/assets/images/frame-460@2x.webp"
           />
         </div>
-      </section>
+      </section> -->
 
 
 
