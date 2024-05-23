@@ -28,7 +28,8 @@ get_header();
       </section>
 
             <!-- * Nos produit * -->
-            <section
+            <?php get_template_part('template-section/section-produit'); ?>
+            <!-- <section
         class="flex flex-col w-full max-w-screen-xl mx-auto px-5 py-14 xl:px-0 xl:py-32 2xl:py-44"
       >
         <h6
@@ -44,7 +45,7 @@ get_header();
         </h2>
         <img
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9f0d4248b332c7edeb97aaeab8c9420238fb15c027362d79891ae4e69a28133?apiKey=abfef66409b54744a10f8b8237a66f58&"
+          src="<?= get_template_directory_uri() ?>/assets/images/Frame-589-min.webp"
           alt=""
           class="mt-8 aspect-[20] fill-cornflowerblue-100 w-[61px]"
         />
@@ -77,7 +78,7 @@ get_header();
             >
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/1dd8ccbc8a43c17a255edbca2348912be1af28996595f64e248e9335dfd4a41d?apiKey=abfef66409b54744a10f8b8237a66f58&"
+                src="<?= get_template_directory_uri() ?>/assets/images/Frame-589-min.webp"
                 alt=""
                 class="mt-3 px-7 w-full aspect-[1.37]"
               />
@@ -97,7 +98,7 @@ get_header();
             >
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/1dd8ccbc8a43c17a255edbca2348912be1af28996595f64e248e9335dfd4a41d?apiKey=abfef66409b54744a10f8b8237a66f58&"
+                src="<?= get_template_directory_uri() ?>/assets/images/Frame-589-min.webp"
                 alt=""
                 class="mt-3 px-7 w-full aspect-[1.37]"
               />
@@ -117,7 +118,7 @@ get_header();
             >
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/1dd8ccbc8a43c17a255edbca2348912be1af28996595f64e248e9335dfd4a41d?apiKey=abfef66409b54744a10f8b8237a66f58&"
+                src="<?= get_template_directory_uri() ?>/assets/images/Frame-589-min.webp"
                 alt=""
                 class="mt-3 px-7 w-full aspect-[1.37]"
               />
@@ -137,7 +138,7 @@ get_header();
             >
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/1dd8ccbc8a43c17a255edbca2348912be1af28996595f64e248e9335dfd4a41d?apiKey=abfef66409b54744a10f8b8237a66f58&"
+                src="<?= get_template_directory_uri() ?>/assets/images/Frame-589-min.webp"
                 alt=""
                 class="mt-3 px-7 w-full aspect-[1.37]"
               />
@@ -157,7 +158,7 @@ get_header();
             >
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/1dd8ccbc8a43c17a255edbca2348912be1af28996595f64e248e9335dfd4a41d?apiKey=abfef66409b54744a10f8b8237a66f58&"
+                src="<?= get_template_directory_uri() ?>/assets/images/Frame-589-min.webp"
                 alt=""
                 class="mt-3 px-7 w-full aspect-[1.37]"
               />
@@ -177,7 +178,7 @@ get_header();
             >
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/1dd8ccbc8a43c17a255edbca2348912be1af28996595f64e248e9335dfd4a41d?apiKey=abfef66409b54744a10f8b8237a66f58&"
+                src="<?= get_template_directory_uri() ?>/assets/images/Frame-589-min.webp"
                 alt=""
                 class="mt-3 px-7 w-full aspect-[1.37]"
               />
@@ -209,7 +210,7 @@ get_header();
             3
           </button>
         </nav>
-      </section>
+      </section> -->
 
                         <!-- * Do good * -->
                         <section

@@ -294,30 +294,30 @@ function tracky_customizer_settings($wp_customize)
 add_action('customize_register', 'tracky_customizer_settings');
 
 /**
- * Register Custom Post Type "Annonces"
+ * Register Custom Post Type "Avis"
  *
  * @return void
  */
 function register_avis_post_type()
 {
 	$labels = array(
-		'name'               => _x('Avis', 'Post Type General Name', 'Petween-care'),
-		'singular_name'      => _x('avis', 'Post Type Singular Name', 'Petween-care'),
-		'menu_name'          => __('Avis', 'Petween-care'),
-		'parent_item_colon'  => __('Parent avis:', 'Petween-care'),
-		'all_items'          => __('All Avis', 'Petween-care'),
-		'view_item'          => __('View avis', 'Petween-care'),
-		'add_new_item'       => __('Add New avis', 'Petween-care'),
-		'add_new'            => __('Add New', 'Petween-care'),
-		'edit_item'          => __('Edit avis', 'Petween-care'),
-		'update_item'        => __('Update avis', 'Petween-care'),
-		'search_items'       => __('Search Avis', 'Petween-care'),
-		'not_found'          => __('Not Found', 'Petween-care'),
-		'not_found_in_trash' => __('Not Found in Trash', 'Petween-care'),
+		'name'               => _x('Avis', 'Post Type General Name', 'tracky'),
+		'singular_name'      => _x('avis', 'Post Type Singular Name', 'tracky'),
+		'menu_name'          => __('Avis', 'tracky'),
+		'parent_item_colon'  => __('Parent avis:', 'tracky'),
+		'all_items'          => __('All Avis', 'tracky'),
+		'view_item'          => __('View avis', 'tracky'),
+		'add_new_item'       => __('Add New avis', 'tracky'),
+		'add_new'            => __('Add New', 'tracky'),
+		'edit_item'          => __('Edit avis', 'tracky'),
+		'update_item'        => __('Update avis', 'tracky'),
+		'search_items'       => __('Search Avis', 'tracky'),
+		'not_found'          => __('Not Found', 'tracky'),
+		'not_found_in_trash' => __('Not Found in Trash', 'tracky'),
 	);
 	$args = array(
-		'label'               => __('avis', 'Petween-care'),
-		'description'         => __('Avis', 'Petween-care'),
+		'label'               => __('avis', 'tracky'),
+		'description'         => __('Avis', 'tracky'),
 		'labels'              => $labels,
 		'supports'            => array('title', 'editor'),
 		'hierarchical'        => false,
@@ -338,3 +338,89 @@ function register_avis_post_type()
 	register_post_type('avis', $args);
 }
 add_action('init', 'register_avis_post_type');
+
+
+/**
+ * Register Custom Post Type "Produits"
+ *
+ * @return void
+ */
+function register_produit_post_type()
+{
+	$labels = array(
+		'name'               => _x('Produits', 'Post Type General Name', 'tracky'),
+		'singular_name'      => _x('produit', 'Post Type Singular Name', 'tracky'),
+		'menu_name'          => __('Produits', 'tracky'),
+		'parent_item_colon'  => __('Parent produit:', 'tracky'),
+		'all_items'          => __('All Produits', 'tracky'),
+		'view_item'          => __('View produit', 'tracky'),
+		'add_new_item'       => __('Add New produit', 'tracky'),
+		'add_new'            => __('Add New', 'tracky'),
+		'edit_item'          => __('Edit produit', 'tracky'),
+		'update_item'        => __('Update produit', 'tracky'),
+		'search_items'       => __('Search Produits', 'tracky'),
+		'not_found'          => __('Not Found', 'tracky'),
+		'not_found_in_trash' => __('Not Found in Trash', 'tracky'),
+	);
+	$args = array(
+		'label'               => __('produit', 'tracky'),
+		'description'         => __('Produits', 'tracky'),
+		'labels'              => $labels,
+		'supports'            => array('title', 'editor', 'thumbnail'),
+		'hierarchical'        => false,
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'menu_icon'           => 'dashicons-media-document',
+		'menu_position'       => 5,
+		'show_in_nav_menus'   => true,
+		'publicly_queryable'  => true,
+		'exclude_from_search' => false,
+		'has_archive'         => true,
+		'query_var'           => true,
+		'can_export'          => true,
+		'rewrite'             => array('slug' => 'Produits'),
+		'capability_type'     => 'post',
+	);
+	register_post_type('produit', $args);
+}
+add_action('init', 'register_produit_post_type');
+
+/**
+ * Register catégorie taxonomy
+ *
+ * @return void
+ */
+function register_catégorie_taxonomy()
+{
+	$labels = array(
+		'name'                       => _x('Catégories', 'Taxonomy General Name', 'text_domain'),
+		'singular_name'              => _x('Catégorie', 'Taxonomy Singular Name', 'text_domain'),
+		'menu_name'                  => __('Catégories', 'text_domain'),
+		'all_items'                  => __('All Catégories', 'text_domain'),
+		'parent_item'                => __('Parent Catégorie', 'text_domain'),
+		'parent_item_colon'          => __('Parent Catégorie:', 'text_domain'),
+		'new_item_name'              => __('New Catégorie Name', 'text_domain'),
+		'add_new_item'               => __('Add New Catégorie', 'text_domain'),
+		'edit_item'                  => __('Edit Catégorie', 'text_domain'),
+		'update_item '                => __('Update Catégorie', 'text_domain'),
+		'separate_items_with_commas' => __('Separate catégorie with commas', 'text_domain'),
+		'search_items'               => __('Search Catégories', 'text_domain'),
+		'add_or_remove_items'        => __('Add or remove catégorie', 'text_domain'),
+		'choose_from_most_used'      => __('Choose from the most used catégorie', 'text_domain'),
+		'not_found'                  => __('Not Found', 'text_domain'),
+	);
+	$args = array(
+		'labels'                     => $labels,
+		'hierarchical'               => true, 
+		'public'                     => true,
+		'show_ui'                    => true,
+		'show_in_nav_menus'          => true,
+		'show_admin_column'          => true,
+		'query_var'                  => true,
+		'rewrite'                    => array('slug' => 'catégorie'),
+	);
+	register_taxonomy('catégorie', array('produit'), $args); 
+}
+add_action('init', 'register_catégorie_taxonomy');
+

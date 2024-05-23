@@ -39,6 +39,8 @@ body {
   button {
     @apply text-inherit bg-transparent border-none cursor-pointer;
   }
+  
+ 
 
 }
 @layer components {
@@ -56,6 +58,7 @@ body {
   .product-filter-button[data-active] {
     @apply !bg-cornflowerblue-100 !text-white;
   }
+  
 }
 
 .vehicule.swiper-slide
@@ -405,5 +408,33 @@ select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
 .menu-item-32:hover .sub-menu {
   display: block !important;
 }
+.Tracky-pagination .page-numbers {
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 1.5rem;  
+padding-right: 1.5rem; 
+background-color: white;
+border: 1px solid #d4d4d4; 
+color :gray;
+height: 51px;
+border-radius: 100px;
+width: 51px;
+}
+.Tracky-pagination .page-numbers.current{
+  display: flex;
+  justify-content: center;
+  padding-left: 1.25rem;  
+  padding-right: 1.25rem; 
+  padding-top: 0.75rem;   
+  padding-bottom: 0.75rem;
+  border: 1px solid #d4d4d4; 
+  border-radius: 100px;
+  color: white;
+ background-color: rgb(0 149 243);  
+  
+}
+
+
 
 
