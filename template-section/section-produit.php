@@ -11,6 +11,13 @@ $args = array(
 
 $all_product_posts = new WP_Query($args);
 
+$Catégories = get_taxonomies();
+            
+
+$categories = get_terms(array(
+    'taxonomy' => 'catégorie', 
+    'hide_empty' => false,    
+));
 ?>
 
 
@@ -31,9 +38,9 @@ $all_product_posts = new WP_Query($args);
         </h2>
         <img
           loading="lazy"
-          src="<?= get_template_directory_uri() ?>/assets/images/Frame-589-min.webp"
+          src="<?= get_template_directory_uri() ?>/assets/images/divider4.svg"
           alt=""
-          class="mt-8 aspect-[20] fill-cornflowerblue-100 w-[61px]"
+          class="mt-8 aspect-[20] !fill-cornflowerblue-100 w-[61px]"
         />
         <p
           class="mt-8 max-w-4xl w-full font-normal text-base leading-6 text-ellipsis text-zinc-700 max-md:max-w-full"
@@ -48,10 +55,14 @@ $all_product_posts = new WP_Query($args);
         <div
           class="flex gap-3 self-start mt-28 text-sm font-medium leading-5 text-zinc-700 max-md:mt-10"
         >
-          <button data-active class="product-filter-button">GPS ISUM</button>
-          <button class="product-filter-button">GPS ISUM</button>
-          <button class="product-filter-button">GPS ISUM</button>
+        <?php foreach ($categories as $category) :?>
+          
+          <button  class="product-filter-button" onclick="filterProducts()"><?=esc_html($category->name) ?></button>
+          <!-- <button class="product-filter-button">GPS ISUM</button>
+          <button class="product-filter-button">GPS ISUM</button> -->
+        <?php endforeach; ?>
         </div>
+
 
         <section
           class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-8 w-full max-md:max-w-full"
@@ -60,7 +71,8 @@ $all_product_posts = new WP_Query($args);
 
                 
                 <?php while ($all_product_posts->have_posts()) :
-
+                   
+                  
                     $all_product_posts->the_post();
                     $product_id = $all_product_posts->ID;
                     // Featured Image

@@ -118,4 +118,13 @@ productFilterButtons?.forEach((button) => {
     button.setAttribute("data-active", "");
   });
 });
-
+function filterProducts(categorie) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("produit-list").innerHTML = this.responseText;
+      }
+  };
+  xhttp.open("GET", "/wp-admin/admin-ajax.php?action=filter_produits&categorie=" + categorie, true);
+  xhttp.send();
+}
