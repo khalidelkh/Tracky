@@ -100,7 +100,8 @@
                 'container' => 'ul',
                 'menu_class' => 'header-menu flex text-sm p-0 m-0 xl:text-base flex-row items-end justify-start gap-5 xl:gap-[32px] font-bold',
               ));
-              ?>
+              ?> 
+            
               <!-- <ul
                 class="flex text-sm p-0 m-0 xl:text-base flex-row items-end justify-start gap-5 xl:gap-[32px]"
               >

@@ -104,6 +104,11 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
 	  width: 250px !important;
 
 }
+@media screen and (max-width:375px){
+  input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    width: 100% !important;
+  }
+}
 input.wpcf7-form-control.wpcf7-tel.wpcf7-text.wpcf7-validates-as-tel {
 	  outline : none !important;
     display: flex !important;
@@ -121,8 +126,15 @@ input.wpcf7-form-control.wpcf7-tel.wpcf7-text.wpcf7-validates-as-tel {
     padding: 1rem !important; 
 	  width: 250px !important;
 }
+
+@media screen and (max-width:375px){
+  input.wpcf7-form-control.wpcf7-tel.wpcf7-text.wpcf7-validates-as-tel {
+    width: 100% !important;
+  }
+}
+
 textarea.wpcf7-form-control.wpcf7-textarea {
-	   outline : none !important;
+	  outline : none !important;
     display: flex !important;
     justify-content: center !important;
     align-items: flex-start !important;
@@ -175,6 +187,13 @@ input.wpcf7-form-control.wpcf7-submit.has-spinner {
   padding: 1rem !important;
   width: 350px !important;
 }
+
+  @media screen and (max-width:375px){
+    #nom.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+      width: 335px !important;
+  }
+} 
+    
 #email.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required  {
   outline : none !important;
 display: flex !important;
@@ -193,6 +212,12 @@ padding: 1rem !important;
 width: 350px !important;
 
 }
+@media screen and (max-width:375px){
+    #email.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+      width: 335px !important;
+  }
+}
+
 #tel.wpcf7-form-control.wpcf7-tel.wpcf7-text.wpcf7-validates-as-tel {
   outline : none !important;
 display: flex !important;
@@ -209,8 +234,14 @@ border-color: #d1d5db !important;
 color: #374151 !important;
 padding: 1rem !important;
 width: 350px !important;
-
 }
+
+@media screen and (max-width:375px){
+  #tel.wpcf7-form-control.wpcf7-tel.wpcf7-text.wpcf7-validates-as-tel {
+    width: 335px !important;
+}
+}
+
 textarea#msg{
   outline : none !important;
   display: flex !important;
@@ -247,6 +278,12 @@ textarea#msg{
  width: 350px !important;
 
 }
+@media screen and (max-width:375px){
+  #ville.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    width: 335px !important;
+}
+}
+
 #env.wpcf7-form-control.wpcf7-submit.has-spinner {
   display: flex !important;
   justify-content: center !important;
@@ -269,6 +306,12 @@ textarea#msg{
   margin-top: 50px !important;
 }
 
+@media screen and (max-width:375px){
+  #env.wpcf7-form-control.wpcf7-submit.has-spinner {
+    width: 335px !important;
+}
+}
+
 #sjt.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
   outline : none !important;
  display: flex !important;
@@ -287,6 +330,14 @@ textarea#msg{
  width: 350px !important;
 
 }
+
+
+@media screen and (max-width:375px){
+  #sjt.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    width: 335px !important;
+}
+}
+
 select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
   display: flex !important;
   justify-content: center !important;
@@ -303,9 +354,56 @@ select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
   color: #374151 !important;
   padding: 1rem !important;
   width: 350px !important;
+}
+@media screen and (max-width:375px){
+  select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
+    width: 335px !important;
+}
+}
 
+.menu-item-38 {
+  position: relative !important;
+  display: inline-block !important;
+}
+
+.sub-menu {
+  display: none !important;
+  position: absolute !important;
+  top: 100% !important;
+  background-color: #f0f0f1 !important;
+  border : 1px solid #f0f0f1 !important;
+  z-index: 1 !important;
+  width:180px !important;
+  padding : 7px !important;
+  line-height: 30px !important;
+}
+
+.menu-item-38:hover .sub-menu {
+  display: block !important;
 }
 
 
+.menu-item-32 {
+  position: relative !important;
+  display: inline-block !important;
+}
+
+.sub-menu {
+  display: none !important;
+  position: absolute !important;
+  top: 100% !important;
+  background-color: rgb(0 149 243) !important;
+  border : 1px solid rgb(0 149 243) !important;
+  z-index: 1 !important;
+  width:180px !important;
+  padding : 10px !important;
+  line-height: 30px !important;
+ margin-left:-30px;
+ 
+}
+
+.menu-item-32:hover .sub-menu {
+  display: block !important;
+}
 
 

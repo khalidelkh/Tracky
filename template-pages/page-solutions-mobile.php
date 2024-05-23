@@ -256,11 +256,11 @@ get_header();
             parcouru, la consommation de l'historique des trajets...
           </p>
           <div
-            class="flex gap-5 max-sm:justify-center justify-between mt-16 max-w-full text-3xl font-semibold leading-7 text-white w-[662px] max-md:flex-wrap max-md:mt-10"
+            class="flex gap-16 max-sm:justify-center justify-between mt-16 max-w-full text-3xl font-semibold leading-7 text-white w-[662px] max-md:flex-wrap max-md:mt-10"
           >
             <a
               href="#"
-              class="flex gap-5 max-sm:w-full justify-center px-11 py-3 bg-cornflowerblue-100 max-md:px-5"
+              class="flex gap-5 max-sm:w-full justify-center px-11 py-3 bg-cornflowerblue-100 max-md:px-5 w-[300px]"
               tabindex="0"
             >
               <img
@@ -276,7 +276,7 @@ get_header();
             </a>
             <a
               href="#"
-              class="flex gap-5 max-sm:w-full justify-center px-11 py-3 border-white border-solid border-[3px] max-md:px-5"
+              class="flex gap-5 max-sm:w-full justify-center px-11 py-3 border-white border-solid border-[3px] max-md:px-5 w-[300px]"
               tabindex="0"
             >
               <img

@@ -211,23 +211,28 @@ class="self-stretch min-h-[856px] pt-20 xl:pt-0 px-5 xl:px-0 flex flex-row items
                     class="flex flex-row items-start justify-start gap-[31px]"
                   >
                     <button
-                      class="avis-swiper-button-prev w-[50.5px] rounded-81xl bg-white box-border h-[50.5px] flex flex-row items-center justify-center border-[1px] border-solid border-gainsboro hover:!bg-cornflowerblue-100"
+                      class="group avis-swiper-button-prev w-[50.5px] rounded-81xl bg-white box-border h-[50.5px] flex flex-row items-center justify-center border-[1px] border-solid border-gainsboro hover:!bg-cornflowerblue-100"
                     >
-                      <img
-                        class="w-[7.7px] relative h-[14.1px] mix-blend-normal"
-                        alt=""
-                        src="<?= get_template_directory_uri() ?>/assets/images/vector5.svg"
-                      />
+                      <div
+                  style="
+                    -webkit-mask: url(<?= get_template_directory_uri() ?>/assets/images/vector5.svg) no-repeat center;
+                    mask: url(<?= get_template_directory_uri() ?>/assets/images/vector5.svg) no-repeat center;
+                  "
+                  class="faq-icon w-3 h-3 bg-gray-500 group-hover:!bg-white"
+                ></div>
                     </button>
 
                     <button
-                      class="avis-swiper-button-next w-[50.5px] rounded-81xl bg-cornflowerblue-100 h-[50.5px] flex flex-row items-center justify-center"
+                      class="group avis-swiper-button-next w-[50.5px] rounded-81xl bg-white h-[50.5px] flex flex-row items-center justify-center border-gainsboro hover:!bg-cornflowerblue-100"
                     >
-                      <img
-                        class="w-[7.7px] relative h-[14.1px] mix-blend-normal "
-                        alt=""
-                        src="<?= get_template_directory_uri() ?>/assets/images/vector6.svg"
-                      />
+                      <div
+                  style="
+                
+                    -webkit-mask: url(<?= get_template_directory_uri() ?>/assets/images/vector6.svg) no-repeat center;
+                    mask: url(<?= get_template_directory_uri() ?>/assets/images/vector6.svg) no-repeat center;
+                  "
+                  class="faq-icon w-3 h-3 bg-gray-500 group-hover:!bg-white"
+                ></div>
                     </button>
                   </div>
                 </div>

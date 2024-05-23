@@ -392,13 +392,21 @@ get_header('home');
             >
               <!-- Swiper prev button -->
               <button
-                class="localize-your-vehicle-swiper-button-prev w-[50.5px] hidden absolute top-1/2 left-[2%] 2xl:left-[5%] rounded-81xl bg-white box-border h-[50.5px] lg:flex flex-row items-center justify-center z-[0] border-[1px] border-solid border-gainsboro hover:!bg-cornflowerblue-100"
+                class="group localize-your-vehicle-swiper-button-prev w-[50.5px] hidden absolute top-1/2 left-[2%] 2xl:left-[5%] rounded-81xl bg-white box-border h-[50.5px] lg:flex flex-row items-center justify-center z-[0] border-[1px] border-solid border-gainsboro hover:!bg-cornflowerblue-100"
               >
-                <img
+                <!-- <img
                   class="w-[7.7px] relative h-[14.1px] mix-blend-normal "
                   alt=""
                   src="<?= get_template_directory_uri() ?>/assets/images/vector5.svg"
-                />
+                /> -->
+                <div
+                  style="
+                
+                    -webkit-mask: url(<?= get_template_directory_uri() ?>/assets/images/vector5.svg) no-repeat center;
+                    mask: url(<?= get_template_directory_uri() ?>/assets/images/vector5.svg) no-repeat center;
+                  "
+                  class="faq-icon w-3 h-3 bg-gray-500 group-hover:!bg-white"
+                ></div>
               </button>
 
               <!-- Swiper wrapper -->
@@ -494,13 +502,21 @@ get_header('home');
 
               <!-- Swiper next button -->
               <button
-                class="localize-your-vehicle-swiper-button-next absolute hidden top-1/2 right-[2%] 2xl:right-[5%] w-[50.5px] rounded-81xl bg-cornflowerblue-100 h-[50.5px] lg:flex flex-row items-center justify-center z-[0]"
+                class="group localize-your-vehicle-swiper-button-next absolute hidden top-1/2 right-[2%] 2xl:right-[5%] w-[50.5px] rounded-81xl bg-white h-[50.5px] lg:flex flex-row items-center justify-center z-[0] hover:!bg-cornflowerblue-100"
               >
-                <img
+                <!-- <img
                   class="w-[7.7px] relative h-[14.1px] mix-blend-normal"
                   alt=""
                   src="<?= get_template_directory_uri() ?>/assets/images/vector6.svg"
-                />
+                /> -->
+                <div
+                  style="
+                
+                    -webkit-mask: url(<?= get_template_directory_uri() ?>/assets/images/vector6.svg) no-repeat center;
+                    mask: url(<?= get_template_directory_uri() ?>/assets/images/vector6.svg) no-repeat center;
+                  "
+                  class="faq-icon w-3 h-3 bg-gray-500 group-hover:!bg-white"
+                ></div>
               </button>
 
               <!-- Swiper pagination -->
