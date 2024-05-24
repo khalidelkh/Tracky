@@ -4521,6 +4521,11 @@ body{
   border-width: 0;
 }
 
+.category-button.active {
+  background-color: rgb(0 149 243)!important;
+  color:white!important;
+}
+
 .vehicule.swiper-slide
 {
   display: flex !important;

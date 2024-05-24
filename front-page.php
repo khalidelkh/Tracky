@@ -388,7 +388,7 @@ get_header('home');
           <div class="flex flex-row items-start justify-start gap-[41px]">
             <!-- Swiper container -->
             <div
-              class="localize-your-vehicle-swiper px-5 max-w-screen-xl overflow-hidden mx-auto h-full w-full"
+              class="localize-your-vehicle-swiper  px-5 max-w-screen-xl overflow-hidden mx-auto h-full w-full"
             >
               <!-- Swiper prev button -->
               <button
@@ -520,7 +520,7 @@ get_header('home');
               </button>
 
               <!-- Swiper pagination -->
-              <div class="localize-your-vehicle-swiper-pagination"></div>
+              <div class="localize-your-vehicle-swiper-pagination mt-3"></div>
             </div>
           </div>
         </div>

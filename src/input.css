@@ -57,8 +57,13 @@ body {
 
   .product-filter-button[data-active] {
     @apply !bg-cornflowerblue-100 !text-white;
-  }
+  } 
   
+}
+
+ .category-button.active {
+  background-color: rgb(0 149 243)!important;
+  color:white!important;
 }
 
 .vehicule.swiper-slide

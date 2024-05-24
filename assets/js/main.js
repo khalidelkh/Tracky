@@ -103,28 +103,14 @@ new Swiper(".swiper-screenshots-container", {
     el: ".swiper-screenshots-pagination",
   },
 });
-// * Product filter in product page
-const productFilterButtons = document.querySelectorAll(
-  ".product-filter-button"
-);
-productFilterButtons?.forEach((button) => {
-  button.addEventListener("click", function () {
-    // Remove active attribute from all buttons
-    for (var i = 0; i < productFilterButtons.length; i++) {
-      productFilterButtons[i].removeAttribute("data-active");
-    }
 
-    // Add active attribute to the clicked button
-    button.setAttribute("data-active", "");
-  });
-});
-function filterProducts(categorie) {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-          document.getElementById("produit-list").innerHTML = this.responseText;
-      }
-  };
-  xhttp.open("GET", "/wp-admin/admin-ajax.php?action=filter_produits&categorie=" + categorie, true);
-  xhttp.send();
-}
+
+ jQuery(document).ready(function ($) {
+   $(".product-filter-button").on("click", function () {
+      //Remove .active-filter class from all .filter-produit-option elements
+     $(".product-filter-button").removeClass("active");
+
+      //Add .active-filter class to the clicked element
+     $(this).addClass("active");
+   });
+ });
