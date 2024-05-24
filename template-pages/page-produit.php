@@ -2,34 +2,22 @@
 /* Template Name: produits*/
 get_header();
 ?>
-      <h1 class="mt-24 text-35xl-5 font-bold leading-[60.69px] text-white">
-            Nos produits
-          </h1>
+<h1 class="mt-24 text-35xl-5 font-bold leading-[60.69px] text-white">
+  Nos produits
+</h1>
 
-          <img
-            loading="lazy"
-            src="<?= get_template_directory_uri() ?>/assets/images/divider1.svg"
-            alt=""
-            class="m-0 aspect-[20] w-[60px] fill-cornflowerblue-100"
-          />
-          <div
-            class="mt-24 flex gap-2.5 text-lg leading-6 whitespace-nowrap max-md:mt-10"
-          >
-            <a href="#" class="text-cornflowerblue-100">Home</a>
-            <img
-              loading="lazy"
-              src="<?= get_template_directory_uri() ?>/assets/images/icons/double-chevron.svg"
-              alt=""
-              class="shrink-0 my-auto aspect-square w-2.5 fill-cornflowerblue-100"
-            />
-            <span class="text-white">Produits</span>
-          </div>
-        </div>
-      </section>
+<img loading="lazy" src="<?= get_template_directory_uri() ?>/assets/images/divider1.svg" alt="" class="m-0 aspect-[20] w-[60px] fill-cornflowerblue-100" />
+<div class="mt-24 flex gap-2.5 text-lg leading-6 whitespace-nowrap max-md:mt-10">
+  <a href="#" class="text-cornflowerblue-100">Home</a>
+  <img loading="lazy" src="<?= get_template_directory_uri() ?>/assets/images/icons/double-chevron.svg" alt="" class="shrink-0 my-auto aspect-square w-2.5 fill-cornflowerblue-100" />
+  <span class="text-white">Produits</span>
+</div>
+</div>
+</section>
 
-            <!-- * Nos produit * -->
-            <?php get_template_part('template-section/section-produit'); ?>
-            <!-- <section
+<!-- * Nos produit * -->
+<?php get_template_part('template-section/section-produit'); ?>
+<!-- <section
         class="flex flex-col w-full max-w-screen-xl mx-auto px-5 py-14 xl:px-0 xl:py-32 2xl:py-44"
       >
         <h6
@@ -212,73 +200,47 @@ get_header();
         </nav>
       </section> -->
 
-                        <!-- * Do good * -->
-                        <section
-        class="self-stretch min-h-[632px] flex flex-col items-start justify-center box-border gap-[23px] bg-[url('/wp-content/themes/tracky/assets/images/rejoignez-notre-rseau@3x.webp')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins"
-      >
-        <div
-          class="flex flex-col items-start py-16 justify-center box-border w-full max-w-screen-xl px-5 mx-auto"
-        >
-          <div class="flex flex-col items-start justify-start gap-[17px]">
-            <div class="flex flex-col items-start justify-start gap-[3px]">
-              <h6
-                class="m-0 relative text-inherit leading-[26.25px] font-semibold font-inherit mix-blend-normal"
-              >
-                Do Good
-              </h6>
-              <h2
-                class="m-0 relative text-21xl-4 sm:text-[43px] leading-[59px] font-bold font-work-sans mix-blend-normal text-white"
-              >
-                REJOIGNEZ <br />
-                NOTRE RÉSEAU REVENDEURS
-              </h2>
-            </div>
-            <img
-              class="w-[60.6px] relative h-[3px] mix-blend-normal"
-              alt=""
-              src="<?= get_template_directory_uri() ?>/assets/images/divider4.svg"
-            />
-          </div>
-          <div
-            class="flex flex-col items-start justify-start gap-[26px] text-sm-9 text-white"
-          >
-            <p class="m-0 max-w-[689.2px] relative leading-[24.76px]">
-              <span>TRACKY </span>
-              <span
-                >est une solution SAAS (software as a service). Aucun logiciel à
-                installer. Une simple connexion internet suffit, Pas de mises à
-                jour à faire par l’utilisateur.</span
-              >
-            </p>
-            <div
-              class="flex flex-row flex-wrap items-start justify-start gap-[34px]"
-            >
-              <button
-                class="cursor-pointer p-0 bg-cornflowerblue-100 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
-              >
-                <a href="/solution-web"
-                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
-                >
-                  En savoir plus
-                </a>
-              </button>
-              <button
-                class="cursor-pointer p-0 bg-cornflowerblue-200 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro"
-              >
-                <a href="/demende-un-devis"
-                  class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white"
-                >
-                  Demande un devis
-                </a>
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+<!-- * Do good * -->
+<section class="self-stretch min-h-[632px] flex flex-col items-start justify-center box-border gap-[23px] bg-[url('/wp-content/themes/tracky/assets/images/rejoignez-notre-rseau@3x.webp')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins">
+  <div class="flex flex-col items-start py-16 justify-center box-border w-full max-w-screen-xl px-5 mx-auto">
+    <div class="flex flex-col items-start justify-start gap-[17px]">
+      <div class="flex flex-col items-start justify-start gap-[3px]">
+        <h6 class="m-0 relative text-inherit leading-[26.25px] font-semibold font-inherit mix-blend-normal">
+          Do Good
+        </h6>
+        <h2 class="m-0 relative text-21xl-4 sm:text-[43px] leading-[59px] font-bold font-work-sans mix-blend-normal text-white">
+          REJOIGNEZ <br />
+          NOTRE RÉSEAU REVENDEURS
+        </h2>
+      </div>
+      <img class="w-[60.6px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider4.svg" />
+    </div>
+    <div class="flex flex-col items-start justify-start gap-[26px] text-sm-9 text-white">
+      <p class="m-0 max-w-[689.2px] relative leading-[24.76px]">
+        <span>TRACKY </span>
+        <span>est une solution SAAS (software as a service). Aucun logiciel à
+          installer. Une simple connexion internet suffit, Pas de mises à
+          jour à faire par l’utilisateur.</span>
+      </p>
+      <div class="flex flex-row flex-wrap items-start justify-start gap-[34px]">
+        <button class="cursor-pointer p-0 bg-cornflowerblue-100 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro">
+          <a href="/solution-web" class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white">
+            En savoir plus
+          </a>
+        </button>
+        <button class="cursor-pointer p-0 bg-cornflowerblue-200 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro">
+          <a href="/demende-un-devis" class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white">
+            Demande un devis
+          </a>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
 
-            <!-- * Avis Clients * -->
-            <?php get_template_part('template-section/section-avis-clients'); ?>
-            <!-- <section
+<!-- * Avis Clients * -->
+<?php get_template_part('template-section/section-avis-clients'); ?>
+<!-- <section
         class="self-stretch min-h-[856px] pt-20 xl:pt-0 px-5 xl:px-0 flex flex-row items-end justify-center pb-16 xl:pb-[126px] box-border text-left text-xl-2 text-cornflowerblue-100 font-poppins"
       >
         <div
@@ -412,7 +374,7 @@ get_header();
         </div>
       </section> -->
 
-      
+
 <?php
 get_footer();
 ?>

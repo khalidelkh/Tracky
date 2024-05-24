@@ -1,7 +1,7 @@
 <?php
 $categories = get_terms(array(
-    'taxonomy' => 'catégorie',
-    'hide_empty' => false,
+  'taxonomy' => 'catégorie',
+  'hide_empty' => false,
 ));
 ?>
 
@@ -48,21 +48,19 @@ $categories = get_terms(array(
     consommation de carburant, les pannes moteur, les alertes,
     l'historique des trajets...
   </p>
-  
-    
 
-      
-    
 
-    <div class="categories flex gap-3 self-start mt-28 text-sm font-medium leading-5 text-zinc-700 max-md:mt-10">
-            <!-- <button class="category-button product-filter-button active" data-id="0">
-                All
-            </button> -->
-        <?php foreach ($categories as $category): ?>
-            <button class="category-button product-filter-button" data-id="<?php echo esc_attr($category->term_id); ?>">
-                <?php echo esc_html($category->name); ?>
-            </button>
-        <?php endforeach; ?>
+
+
+
+
+  <div class="categories flex gap-3 self-start mt-28 text-sm font-medium leading-5 text-zinc-700 max-md:mt-10">
+
+    <?php foreach ($categories as $category) : ?>
+      <button class="category-button product-filter-button" data-id="<?php echo esc_attr($category->term_id); ?>">
+        <?php echo esc_html($category->name); ?>
+      </button>
+    <?php endforeach; ?>
   </div>
 
 
