@@ -32,7 +32,7 @@ get_header();
         class="self-stretch max-w-screen-xl w-full px-5 mx-auto min-h-[854px] flex flex-col py-20 lg:py-0 lg:flex-row items-center justify-center gap-[82px] text-left text-lg text-cornflowerblue-100 font-poppins"
       >
         <div
-          class="max-w-[616px] h-[356px] sm:h-[456px] lg:h-[565px] min-w-72 w-full flex flex-col items-start justify-start relative bg-[url('/wp-content/themes/tracky/assets/images/pages/secteur/truck.webp')] bg-cover bg-no-repeat bg-[top]"
+          class="max-w-[616px] h-[356px] sm:h-[456px] lg:h-[565px] min-w-72 w-full flex flex-col items-start justify-start relative bg-[url('/wp-content/themes/tracky/assets/images/pages/secteur/truck.webp')] bg-cover bg-no-repeat bg-[top] max-sm:!w-[250px]"
         >
           <img
             class="w-[117.2px] !m-[0] absolute top-[-46px] -right-10 h-[123.7px] object-cover z-[0]"

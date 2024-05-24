@@ -5083,8 +5083,20 @@ select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
 }
 
 @media not all and (min-width: 640px){
+  .max-sm\:w-\[200px\]{
+    width: 200px;
+  }
+
   .max-sm\:w-full{
     width: 100%;
+  }
+
+  .max-sm\:\!w-\[200px\]{
+    width: 200px !important;
+  }
+
+  .max-sm\:\!w-\[250px\]{
+    width: 250px !important;
   }
 
   .max-sm\:justify-center{
