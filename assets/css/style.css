@@ -530,6 +530,11 @@ button{
   margin: auto;
 }
 
+.mx-7{
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -538,11 +543,6 @@ button{
 .my-auto{
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.mx-7{
-  margin-left: 1.75rem;
-  margin-right: 1.75rem;
 }
 
 .\!ml-20{
@@ -653,6 +653,10 @@ button{
   margin-top: 8rem;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
 .mt-5{
   margin-top: 1.25rem;
 }
@@ -687,10 +691,6 @@ button{
 
 .mt-\[-9px\]{
   margin-top: -9px;
-}
-
-.mt-4{
-  margin-top: 1rem;
 }
 
 .box-border{
@@ -1105,6 +1105,10 @@ button{
   height: 100%;
 }
 
+.h-\[237\.9px\]{
+  height: 237.9px;
+}
+
 .max-h-\[323\.1px\]{
   max-height: 323.1px;
 }
@@ -1485,6 +1489,10 @@ button{
   width: 100%;
 }
 
+.w-\[237\.9px\]{
+  width: 237.9px;
+}
+
 .min-w-72{
   min-width: 18rem;
 }
@@ -1593,6 +1601,10 @@ button{
   max-width: 444.2px;
 }
 
+.max-w-\[500px\]{
+  max-width: 500px;
+}
+
 .max-w-\[505px\]{
   max-width: 505px;
 }
@@ -1669,6 +1681,10 @@ button{
   max-width: 747.1px;
 }
 
+.max-w-\[883px\]{
+  max-width: 883px;
+}
+
 .max-w-full{
   max-width: 100%;
 }
@@ -1683,14 +1699,6 @@ button{
 
 .max-w-xs{
   max-width: 20rem;
-}
-
-.max-w-\[500px\]{
-  max-width: 500px;
-}
-
-.max-w-\[883px\]{
-  max-width: 883px;
 }
 
 .flex-1{
@@ -2268,6 +2276,10 @@ button{
   gap: 1.25rem;
 }
 
+.gap-6{
+  gap: 1.5rem;
+}
+
 .gap-\[106px\]{
   gap: 106px;
 }
@@ -2476,8 +2488,28 @@ button{
   gap: 9px;
 }
 
-.gap-6{
-  gap: 1.5rem;
+.gap-\[50px\]{
+  gap: 50px;
+}
+
+.\!gap-\[50px\]{
+  gap: 50px !important;
+}
+
+.gap-\[px\]{
+  gap: px;
+}
+
+.\!gap-\[10px\]{
+  gap: 10px !important;
+}
+
+.gap-\[65px\]{
+  gap: 65px;
+}
+
+.\!gap-\[65px\]{
+  gap: 65px !important;
 }
 
 .gap-x-16{
@@ -3278,6 +3310,10 @@ button{
      object-fit: scale-down;
 }
 
+.\!p-4{
+  padding: 1rem !important;
+}
+
 .p-0{
   padding: 0px;
 }
@@ -3306,10 +3342,6 @@ button{
   padding: 2rem;
 }
 
-.\!p-4{
-  padding: 1rem !important;
-}
-
 .px-0{
   padding-left: 0px;
   padding-right: 0px;
@@ -3323,6 +3355,11 @@ button{
 .px-11{
   padding-left: 2.75rem;
   padding-right: 2.75rem;
+}
+
+.px-14{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 }
 
 .px-16{
@@ -3410,17 +3447,16 @@ button{
   padding-bottom: 44.5px;
 }
 
-.px-14{
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-}
-
 .\!pt-1{
   padding-top: 0.25rem !important;
 }
 
 .pb-0{
   padding-bottom: 0px;
+}
+
+.pb-12{
+  padding-bottom: 3rem;
 }
 
 .pb-16{
@@ -3431,12 +3467,20 @@ button{
   padding-bottom: 5rem;
 }
 
+.pb-24{
+  padding-bottom: 6rem;
+}
+
 .pb-28{
   padding-bottom: 7rem;
 }
 
 .pb-5{
   padding-bottom: 1.25rem;
+}
+
+.pb-8{
+  padding-bottom: 2rem;
 }
 
 .pb-\[125px\]{
@@ -3495,18 +3539,6 @@ button{
   padding-top: 5rem;
 }
 
-.pt-5{
-  padding-top: 1.25rem;
-}
-
-.pt-\[110px\]{
-  padding-top: 110px;
-}
-
-.pb-24{
-  padding-bottom: 6rem;
-}
-
 .pt-3{
   padding-top: 0.75rem;
 }
@@ -3515,16 +3547,16 @@ button{
   padding-top: 0.875rem;
 }
 
-.pb-12{
-  padding-bottom: 3rem;
-}
-
-.pb-8{
-  padding-bottom: 2rem;
+.pt-5{
+  padding-top: 1.25rem;
 }
 
 .pt-9{
   padding-top: 2.25rem;
+}
+
+.pt-\[110px\]{
+  padding-top: 110px;
 }
 
 .text-left{
@@ -3803,6 +3835,10 @@ button{
   line-height: 1.75rem;
 }
 
+.leading-8{
+  line-height: 2rem;
+}
+
 .leading-\[20\.19px\]{
   line-height: 20.19px;
 }
@@ -3925,10 +3961,6 @@ button{
 
 .leading-normal{
   line-height: 1.5;
-}
-
-.leading-8{
-  line-height: 2rem;
 }
 
 .\!text-cornflowerblue-100{
@@ -4231,6 +4263,18 @@ button{
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-xl{
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-2xl{
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .\!outline-none{
   outline: 2px solid transparent !important;
   outline-offset: 2px !important;
@@ -4456,6 +4500,18 @@ button{
 
 .\[border\:none\]{
   border: none;
+}
+
+.\[box-shadow\:0_4px_8px_\#d1d5db\]{
+  box-shadow: 0 4px 8px #d1d5db;
+}
+
+.\[box-shadow\:0_4px_8px_rgba\(209\2c 213\2c 219\)\]{
+  box-shadow: 0 4px 8px rgba(209,213,219);
+}
+
+.\[box-shadow\:0_4px_8px_rgba\(209\2c 213\2c 219\2c 0\.5\)\]{
+  box-shadow: 0 4px 8px rgba(209,213,219,0.5);
 }
 
 .\[display\:-webkit-inline-box\]{
@@ -4975,6 +5031,14 @@ select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
     margin-left: 0px;
   }
 
+  .max-md\:mr-2{
+    margin-right: 0.5rem;
+  }
+
+  .max-md\:mr-2\.5{
+    margin-right: 0.625rem;
+  }
+
   .max-md\:mt-0{
     margin-top: 0px;
   }
@@ -4989,14 +5053,6 @@ select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
 
   .max-md\:mt-9{
     margin-top: 2.25rem;
-  }
-
-  .max-md\:mr-2{
-    margin-right: 0.5rem;
-  }
-
-  .max-md\:mr-2\.5{
-    margin-right: 0.625rem;
   }
 
   .max-md\:w-full{
@@ -5279,6 +5335,11 @@ select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
     padding-right: 2.5rem;
   }
 
+  .lg\:px-12{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .lg\:px-16{
     padding-left: 4rem;
     padding-right: 4rem;
@@ -5292,11 +5353,6 @@ select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
   .lg\:py-20{
     padding-top: 5rem;
     padding-bottom: 5rem;
-  }
-
-  .lg\:px-12{
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 
   .lg\:pb-16{

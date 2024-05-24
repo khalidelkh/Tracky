@@ -433,7 +433,7 @@ get_header('home');
   <div class="flex flex-col items-center justify-start gap-[30px] text-mid">
     <img class="w-[60.6px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider5.svg" />
     <div class="flex flex-col items-center justify-start gap-[95px]">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 items-start justify-start gap-[29px]">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 items-start justify-start !gap-[65px]">
         <?php
         // WP Query to get products with 'Show in Home page' checked
         $args = array(
@@ -455,8 +455,8 @@ get_header('home');
             $product_image = get_the_post_thumbnail_url(get_the_ID(), 'full') ?: get_template_directory_uri() . "/assets/images/Frame-589-min.webp";
             $product_title = get_the_title();
         ?>
-            <div class="flex flex-col items-center justify-start gap-[33px]">
-              <img class="w-[302.9px] h-[302.9px] object-contain" alt="<?php echo esc_attr($product_title); ?>" src="<?php echo esc_url($product_image); ?>" />
+            <div class="flex flex-col items-center justify-start gap-[50px]">
+              <img class="w-[237.9px] h-[237.9px] object-contain shadow-2xl  " alt="<?php echo esc_attr($product_title); ?>" src="<?php echo esc_url($product_image); ?>" />
               <div class="flex flex-col items-center justify-start gap-[1px]">
                 <div class="relative leading-[26.25px] font-semibold mix-blend-normal">
                   PRODUIT
