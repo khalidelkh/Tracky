@@ -65,10 +65,10 @@ get_header();
 </section>
 
 <!-- * ---- CE QUI NOUS DIFFÉRENCIE ----- * -->
-<section class="self-stretch min-h-[851px] flex flex-col items-center justify-start pt-[110px] px-0 pb-0 box-border relative gap-[118px] text-center text-xl text-cornflowerblue-100 font-poppins">
+<section class=" self-stretch min-h-[851px] flex flex-col items-center justify-start pt-[110px] px-0 pb-0 box-border relative gap-[118px] text-center text-xl text-cornflowerblue-100 font-poppins">
   <div class="w-full m-0 absolute top-0 bg-[url('/wp-content/themes/tracky/assets/images/bgs/bg-secteur-difference.webp')] bg-no-repeat bg-cover h-full xl:h-auto xl:bottom-20 left-0 max-h-full object-cover z-[0]" alt=""></div>
 
-  <div class="w-full max-w-screen-xl mx-auto flex flex-col items-center justify-start gap-[34px] z-[1]">
+  <div class="w-full max-w-screen-xl mx-auto flex flex-col items-center justify-start gap-[34px] z-[1] ">
     <div class="flex flex-col items-center justify-start gap-[12px]">
       <h6 class="m-0 relative text-inherit leading-[25.99px] font-semibold font-inherit mix-blend-normal">
         SECTEUR
@@ -80,59 +80,59 @@ get_header();
     <img class="w-[60px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider2.svg" />
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[34px] text-base text-white">
-      <div class="max-w-[299.8px] rounded-[3.33px] h-[261.9px] flex flex-col items-center justify-center gap-[22px]">
+      <div class=" group max-w-[299.8px] rounded-[3.33px] h-[261.9px] flex flex-col items-center justify-center gap-[22px] bg-transparent hover:bg-white ">
         <div class="w-[89.9px] rounded-81xl bg-cornflowerblue-100 h-[90px] flex flex-row items-center justify-center">
           <img class="w-[45px] h-[51px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/driver-icon.svg" />
         </div>
         <div class="flex flex-col items-center justify-start gap-[8px]">
-          <h5 class="relative leading-[27.98px] font-semibold mix-blend-normal">
+          <h5 class="relative leading-[27.98px] font-semibold mix-blend-normal group-hover:text-cornflowerblue-100">
             GESTION DES REMORQUES
           </h5>
-          <p class="relative leading-[28px] mix-blend-normal">
+          <p class="relative leading-[28px] mix-blend-normal group-hover:text-darkslategray-100">
             Elit eget gravida cum sociis natoque.
           </p>
         </div>
       </div>
 
-      <div class="w-[299.8px] rounded-[3.33px] bg-white h-[261.9px] flex flex-col items-center justify-center gap-[22px] text-cornflowerblue-100">
+      <div class="group w-[299.8px] rounded-[3.33px]  h-[261.9px] flex flex-col items-center justify-center gap-[22px] text-cornflowerblue-100 hover:bg-white">
         <div class="w-[89.9px] rounded-81xl bg-cornflowerblue-100 h-[90px] flex flex-row items-center justify-center">
           <img class="w-[45px] h-[51px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/driver-icon.svg" />
         </div>
         <div class="flex flex-col items-center justify-start gap-[8px]">
-          <div class="relative leading-[27.98px] font-semibold mix-blend-normal">
+          <div class="relative leading-[27.98px] font-semibold mix-blend-normal text-white group-hover:text-cornflowerblue-100">
             COMPORTEMENT CONDUCTEUR
           </div>
-          <div class="relative leading-[28px] mix-blend-normal text-darkslategray-100">
+          <div class="relative leading-[28px] mix-blend-normal text-white group-hover:text-darkslategray-100">
             <p class="m-0">Mauris vitae ultricies leo</p>
             <p class="m-0">integer malesuada.</p>
           </div>
         </div>
       </div>
 
-      <div class="w-[299.8px] rounded-[3.33px] h-[261.9px] flex flex-col items-center justify-center gap-[22px]">
+      <div class="group w-[299.8px] rounded-[3.33px] h-[261.9px] flex flex-col items-center justify-center gap-[22px] hover:bg-white">
         <div class="w-[89.9px] rounded-81xl bg-cornflowerblue-100 h-[90px] flex flex-row items-center justify-center">
           <img class="w-[45px] h-[51px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/driver-icon.svg" />
         </div>
         <div class="flex flex-col items-center justify-start gap-[8px]">
-          <div class="relative leading-[27.98px] font-semibold mix-blend-normal">
+          <div class="relative leading-[27.98px] font-semibold mix-blend-normal group-hover:text-cornflowerblue-100">
             KPI Dashboard
           </div>
-          <div class="relative leading-[28px] mix-blend-normal">
+          <div class="relative leading-[28px] mix-blend-normal group-hover:text-darkslategray-100">
             <p class="m-0">Excepteur sint occaecat</p>
             <p class="m-0">cupidatat proident.</p>
           </div>
         </div>
       </div>
 
-      <div class="w-[299.8px] rounded-[3.33px] h-[261.9px] flex flex-col items-center justify-center gap-[22px]">
+      <div class="group w-[299.8px] rounded-[3.33px] h-[261.9px] flex flex-col items-center justify-center gap-[22px] hover:bg-white">
         <div class="w-[89.9px] rounded-81xl bg-cornflowerblue-100 h-[90px] flex flex-row items-center justify-center">
           <img class="w-[45px] h-[51px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/driver-icon.svg" />
         </div>
         <div class="flex flex-col items-center justify-start gap-[8px]">
-          <div class="relative leading-[27.98px] font-semibold mix-blend-normal">
+          <div class="relative leading-[27.98px] font-semibold mix-blend-normal group-hover:text-cornflowerblue-100">
             RAPPORTS AUTOMATIQUE
           </div>
-          <div class="relative leading-[28px] mix-blend-normal">
+          <div class="relative leading-[28px] mix-blend-normal group-hover:text-darkslategray-100">
             <p class="m-0">Varius duis at consectetur</p>
             <p class="m-0">lorem donec massa.</p>
           </div>

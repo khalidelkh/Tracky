@@ -250,7 +250,45 @@ get_header('home');
               <b>PARTICULIER</b>
               <p class="text-white m-0">
                 OU PERSONNEL
-                <span class="text-4xl font-font-awesome-5-pro text-cornflowerblue-100"></span>
+                <img 
+                class="text-4xl font-awesome-5-pro text-cornflowerblue-100"
+                alt=""
+                src="<?= get_template_directory_uri() ?>/assets/images/icons/svgviewer-output (10).svg"
+                >              
+              </p>
+            </div>
+          </div>
+
+          <div class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0 pb-[50px] pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/Frame-408-_1_.webp')] bg-cover bg-no-repeat bg-[top]">
+            <div class="relative leading-[26.25px] font-semibold mix-blend-normal">
+              Secteur
+            </div>
+            <div class="relative text-left leading-[38px] mix-blend-normal text-13xl font-work-sans">
+              <b>CAR &</b>
+              <p class="text-white m-0">
+                TRANSPORT
+                <img 
+                class="text-4xl font-awesome-5-pro text-cornflowerblue-100"
+                alt=""
+                src="<?= get_template_directory_uri() ?>/assets/images/icons/svgviewer-output (10).svg"
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0 pb-[50px] pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/Frame-409.webp')] bg-cover bg-no-repeat bg-[top]">
+            <div class="relative leading-[26.25px] font-semibold mix-blend-normal">
+              Secteur
+            </div>
+            <div class="relative text-left leading-[38px] mix-blend-normal text-13xl font-work-sans">
+              <b>TRANSPORT</b>
+              <p class="text-white m-0">
+                DE MARCHANDISSE
+                <img 
+                class="text-4xl font-awesome-5-pro text-cornflowerblue-100"
+                alt=""
+                src="<?= get_template_directory_uri() ?>/assets/images/icons/svgviewer-output (10).svg"
+                >
               </p>
             </div>
           </div>
@@ -263,34 +301,12 @@ get_header('home');
               <b>PARTICULIER</b>
               <p class="text-white m-0">
                 OU PERSONNEL
-                <span class="text-4xl font-font-awesome-5-pro text-cornflowerblue-100"></span>
-              </p>
-            </div>
-          </div>
-
-          <div class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0 pb-[50px] pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407_3x-min.webp')] bg-cover bg-no-repeat bg-[top]">
-            <div class="relative leading-[26.25px] font-semibold mix-blend-normal">
-              Secteur
-            </div>
-            <div class="relative text-left leading-[38px] mix-blend-normal text-13xl font-work-sans">
-              <b>PARTICULIER</b>
-              <p class="text-white m-0">
-                OU PERSONNEL
-                <span class="text-4xl font-font-awesome-5-pro text-cornflowerblue-100"></span>
-              </p>
-            </div>
-          </div>
-
-          <div class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0 pb-[50px] pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407_3x-min.webp')] bg-cover bg-no-repeat bg-[top]">
-            <div class="relative leading-[26.25px] font-semibold mix-blend-normal">
-              Secteur
-            </div>
-            <div class="relative text-left leading-[38px] mix-blend-normal text-13xl font-work-sans">
-              <b>PARTICULIER</b>
-              <p class="text-white m-0">
-                OU PERSONNEL
-                <span class="text-4xl font-font-awesome-5-pro text-cornflowerblue-100"></span>
-              </p>
+                <img 
+                class="text-4xl font-awesome-5-pro text-cornflowerblue-100"
+                alt=""
+                src="<?= get_template_directory_uri() ?>/assets/images/icons/svgviewer-output (10).svg"
+                >             
+               </p>
             </div>
           </div>
         </div>
@@ -355,7 +371,8 @@ get_header('home');
       </div>
     </div>
 
-    <div class="max-w-[416px] h-[504px] w-full flex flex-row items-center justify-center bg-[url('/wp-content/themes/tracky/assets/images/frame-421@3x.webp')] bg-cover bg-no-repeat bg-[top]">
+
+    <div class=" max-w-[416px] h-[504px] w-full flex flex-row items-center justify-center bg-[url('/wp-content/themes/tracky/assets/images/frame-421@3x.webp')] bg-cover bg-no-repeat bg-[top]">
       <div class="w-[101px] rounded-81xl bg-cornflowerblue-100 h-[101px] flex flex-row items-center justify-center">
         <img class="w-[22px] relative h-[23.5px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/polygon.svg" />
       </div>

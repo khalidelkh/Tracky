@@ -294,6 +294,8 @@ function tracky_customizer_settings($wp_customize)
 		'label'    => __('Twitter', 'tracky'),
 		'description' => 'https://twitter.com/yourusername'
 	));
+
+
 }
 add_action('customize_register', 'tracky_customizer_settings');
 

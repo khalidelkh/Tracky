@@ -1,9 +1,4 @@
-<?php
-$categories = get_terms(array(
-  'taxonomy' => 'catégorie',
-  'hide_empty' => false,
-));
-?>
+
 
 
 
@@ -20,7 +15,7 @@ $args = array(
 
 $all_product_posts = new WP_Query($args);
 
-$Catégories = get_taxonomies();
+
 
 
 $categories = get_terms(array(
