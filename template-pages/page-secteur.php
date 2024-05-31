@@ -80,7 +80,7 @@ get_header();
     <img class="w-[60px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider2.svg" />
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[34px] text-base text-white">
-      <div class=" group max-w-[299.8px] rounded-[3.33px] h-[261.9px] flex flex-col items-center justify-center gap-[22px] bg-transparent hover:bg-white ">
+      <div class=" group max-w-[299.8px] rounded-[3.33px] h-[261.9px] mt-4 flex flex-col items-center justify-center gap-[22px] bg-transparent hover:bg-white !duration-200 !transition-all">
         <div class="w-[89.9px] rounded-81xl bg-cornflowerblue-100 h-[90px] flex flex-row items-center justify-center">
           <img class="w-[45px] h-[51px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/driver-icon.svg" />
         </div>
@@ -94,7 +94,7 @@ get_header();
         </div>
       </div>
 
-      <div class="group w-[299.8px] rounded-[3.33px]  h-[261.9px] flex flex-col items-center justify-center gap-[22px] text-cornflowerblue-100 hover:bg-white">
+      <div class="group w-[299.8px] rounded-[3.33px]  h-[261.9px] flex flex-col items-center justify-center gap-[22px] text-cornflowerblue-100 hover:bg-white !duration-200 !transition-all">
         <div class="w-[89.9px] rounded-81xl bg-cornflowerblue-100 h-[90px] flex flex-row items-center justify-center">
           <img class="w-[45px] h-[51px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/driver-icon.svg" />
         </div>
@@ -109,7 +109,7 @@ get_header();
         </div>
       </div>
 
-      <div class="group w-[299.8px] rounded-[3.33px] h-[261.9px] flex flex-col items-center justify-center gap-[22px] hover:bg-white">
+      <div class="group w-[299.8px] rounded-[3.33px] h-[261.9px] flex flex-col items-center justify-center gap-[22px] hover:bg-white !duration-200 !transition-all">
         <div class="w-[89.9px] rounded-81xl bg-cornflowerblue-100 h-[90px] flex flex-row items-center justify-center">
           <img class="w-[45px] h-[51px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/driver-icon.svg" />
         </div>
@@ -124,7 +124,7 @@ get_header();
         </div>
       </div>
 
-      <div class="group w-[299.8px] rounded-[3.33px] h-[261.9px] flex flex-col items-center justify-center gap-[22px] hover:bg-white">
+      <div class="group w-[299.8px] rounded-[3.33px] h-[261.9px] flex flex-col items-center justify-center gap-[22px] hover:bg-white !duration-200 !transition-all">
         <div class="w-[89.9px] rounded-81xl bg-cornflowerblue-100 h-[90px] flex flex-row items-center justify-center">
           <img class="w-[45px] h-[51px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/driver-icon.svg" />
         </div>
