@@ -184,7 +184,7 @@ get_header();
             <span class="text-midnightblue">DE MARCHANDISE</span>
           </h1>
           <img loading="lazy"
-          src="http://tracky.test/wp-content/themes/tracky/assets/images/divider4.svg"
+          src="<?= get_template_directory_uri() ?>/assets/images/divider4.svg"
            alt="" 
            class="mt-[-9px] aspect-[20] fill-sky-500 w-[60px]" />
           <p class="mt-12 font-normal max-md:mt-10 max-md:max-w-full text-[16.5px]">
@@ -244,7 +244,7 @@ get_header();
         </button>
         <button class="cursor-pointer p-0 bg-cornflowerblue-200 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro">
           <a href="/demende-un-devis" class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white">
-          Voir les partenariats
+          Demander un devis
           </a>
         </button>
       </div>

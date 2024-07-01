@@ -145,7 +145,7 @@ get_header();
   <div class="px-5 z-50 xl:px-0 flex w-full max-w-screen-xl flex-col md:flex-row items-start justify-start text-center text-35xl-5 text-midnightblue">
     <div class="w-full shadow-[0px_5px_29px_rgba(33,_52,_48,_0.34)] rounded-t-3xs md:rounded-tl-3xs gap-5 md:rounded-tr-none md:rounded-br-none md:rounded-bl-3xs bg-white py-10 flex flex-row flex-wrap items-center justify-evenly">
       <div class="flex flex-col items-center justify-start gap-[16px]">
-        <b class="relative leading-[60.58px] mix-blend-normal">560+</b>
+        <b class="relative leading-[60.58px] mix-blend-normal">100+</b>
         <img class="w-[60.6px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider1.svg" />
 
         <span class="relative text-lg-2 leading-[26.25px] font-semibold text-darkslategray-300 mix-blend-normal">
@@ -153,19 +153,19 @@ get_header();
         </span>
       </div>
       <div class="flex flex-col items-center justify-start gap-[15px]">
-        <b class="relative leading-[60.58px] mix-blend-normal">15K+</b>
+        <b class="relative leading-[60.58px] mix-blend-normal">3K+</b>
         <img class="w-[60.6px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider2.svg" />
 
         <div class="relative text-lg-2 leading-[26.25px] font-semibold text-darkslategray-300 mix-blend-normal">
-          GPS Installer
+        Véhicules gérés
         </div>
       </div>
       <div class="flex flex-col items-center justify-start gap-[16px]">
-        <b class="relative leading-[60.58px] mix-blend-normal">68K+</b>
+        <b class="relative leading-[60.58px] mix-blend-normal">20+</b>
         <img class="w-[60.6px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider1.svg" />
 
         <div class="relative text-lg-2 leading-[26.25px] font-semibold text-darkslategray-300 mix-blend-normal">
-          Membre d’équipe
+        Membre d’équipe
         </div>
       </div>
     </div>
@@ -407,26 +407,27 @@ get_header();
 </section>
 
 <!-- * Do good * -->
-<section class="self-stretch min-h-[632px] flex flex-col items-start justify-center box-border gap-[23px] bg-[url('/wp-content/themes/tracky/assets/images/rejoignez-notre-rseau@3x.webp')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins">
+<section class="self-stretch min-h-[632px] flex flex-col items-start justify-center box-border gap-[23px] bg-[url('/wp-content/themes/tracky/assets/images/rejoignez-notre-rseau_3x-min.webp')] bg-cover bg-no-repeat bg-[top] text-left text-xl-2 text-cornflowerblue-100 font-poppins">
   <div class="flex flex-col items-start py-16 justify-center box-border w-full max-w-screen-xl px-5 mx-auto">
     <div class="flex flex-col items-start justify-start gap-[17px]">
       <div class="flex flex-col items-start justify-start gap-[3px]">
         <h6 class="m-0 relative text-inherit leading-[26.25px] font-semibold font-inherit mix-blend-normal">
-          Do Good
+        Devenons partenaires !
         </h6>
         <h2 class="m-0 relative text-21xl-4 sm:text-[43px] leading-[59px] font-bold font-work-sans mix-blend-normal text-white">
-          REJOIGNEZ <br />
-          NOTRE RÉSEAU REVENDEURS
+        Devenez un partenaire de TRACKY<br>
+         Solutions et développez votre<br> activité
         </h2>
       </div>
       <img class="w-[60.6px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider4.svg" />
     </div>
     <div class="flex flex-col items-start justify-start gap-[26px] text-sm-9 text-white">
-      <p class="m-0 max-w-[689.2px] relative leading-[24.76px]">
-        <span>TRACKY </span>
-        <span>est une solution SAAS (software as a service). Aucun logiciel à
-          installer. Une simple connexion internet suffit, Pas de mises à
-          jour à faire par l’utilisateur.</span>
+      <p class="m-0 max-w-[689.2px] relative leading-[24.76px] text-justify">
+        <span>Il existe d’énormes opportunités de croissance aux quatre coins du monde. Étant 
+        l’une des marques à la croissance la plus rapide dans le secteur de la télématique, 
+        c’est le moment idéal pour rejoindre TRACKY Solutions en tant que partenaire.
+        Nos modèles de commission et de partenariat sont uniques et offrent de hauts 
+        niveaux de flexibilité, vous trouverez donc la bonne relation pour travailler avec nous.</span>
       </p>
       <div class="flex flex-row flex-wrap items-start justify-start gap-[34px]">
         <button class="cursor-pointer p-0 bg-cornflowerblue-100 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro">
@@ -436,7 +437,7 @@ get_header();
         </button>
         <button class="cursor-pointer p-0 bg-cornflowerblue-200 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro">
           <a href="/demende-un-devis" class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white">
-            Demande un devis
+          Demander un devis
           </a>
         </button>
       </div>

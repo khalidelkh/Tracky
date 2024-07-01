@@ -3939,14 +3939,6 @@ button{
   line-height: 1.5;
 }
 
-.leading-10{
-  line-height: 2.5rem;
-}
-
-.leading-\[59\.97px\]{
-  line-height: 59.97px;
-}
-
 .\!text-cornflowerblue-100{
   --tw-text-opacity: 1 !important;
   color: rgb(0 149 243 / var(--tw-text-opacity)) !important;
