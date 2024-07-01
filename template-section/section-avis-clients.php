@@ -129,7 +129,7 @@ class="self-stretch min-h-[856px] pt-20 xl:pt-0 px-5 xl:px-0 flex flex-row items
       <div class="max-w-[747.1px] rounded-[3.33px] bg-white flex flex-col items-start justify-center py-12 sm:px-[50px] box-border gap-[18px]">
         <div class="flex flex-col items-start justify-start gap-[5px] z-[2]">
           <h6 class="m-0 relative text-inherit leading-[26.25px] font-semibold font-inherit mix-blend-normal">
-            Avis Clients
+          SUCCÈS CLIENT
           </h6>
           <h2 class="m-0 relative text-13xl leading-normal sm:text-21xl-4 sm:leading-[46.44px] font-bold font-work-sans mix-blend-normal text-midnightblue">
             Ce que les gens disent de notre <br />
@@ -142,7 +142,7 @@ class="self-stretch min-h-[856px] pt-20 xl:pt-0 px-5 xl:px-0 flex flex-row items
         <div class="swiper max-w-80 sm:max-w-none w-full items-start justify-start gap-[5px] z-[0] text-sm text-darkslategray-100">
           <div class="avis-swiper w-full overflow-hidden">
             <div class="swiper-wrapper w-full">
-              <div class="swiper-slide relative leading-[25px]">
+              <div class="swiper-slide relative leading-[25px] text-justify">
                 <p>
                   <?= wp_strip_all_tags($recent_post->post_content) ?>
                 </p>
@@ -156,7 +156,7 @@ class="self-stretch min-h-[856px] pt-20 xl:pt-0 px-5 xl:px-0 flex flex-row items
                 </div>
               </div>
 
-              <div class="swiper-slide relative leading-[25px]">
+              <div class="swiper-slide relative leading-[25px] text-justify">
                 <p>
                   <?= wp_strip_all_tags($avi->post_content) ?>
                 </p>

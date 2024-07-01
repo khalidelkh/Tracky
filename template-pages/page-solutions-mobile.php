@@ -100,8 +100,8 @@ get_header();
             </p>
           </div>
         </div>
-        <div class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
-          <img loading="lazy" src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-mobile/mobile-mockup-2.webp" alt="" class="grow object-contain w-full max-h-[650px] aspect-[0.68] max-md:mt-10" />
+        <div class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full  ">
+          <img loading="lazy" src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions-mobile/mobile-mockup-2.webp" alt="" class="grow object-contain w-full max-h-[650px] aspect-[0.68] max-md:mt-10 " />
         </div>
         <div class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
           <div class="flex flex-col self-stretch my-auto max-md:mt-10">

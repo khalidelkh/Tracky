@@ -10,7 +10,7 @@ get_header('home');
         VIHÉCULES TRACKING
       </h6>
       <h1 class="m-0 max-w-[611px] relative text-35xl-5 leading-[60.58px] font-bold font-work-sans text-white mix-blend-normal">
-        Tracky Safe & Reliable Solutions web!
+      Tracky : Aider les entreprises à gérer leurs actifs dans le monde entier.
       </h1>
     </div>
 
@@ -19,9 +19,8 @@ get_header('home');
         <img class="w-[3px] relative h-[80.8px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider.svg" />
 
         <p class="m-0 max-w-[643px] relative leading-[28px]">
-          Une solution sur mesure et modulable selon les besoins de
-          chaque client et chaque metier lorem ipsum dolor sit amet,
-          consectetur adipisicing elit.
+        Une gamme de produits adaptés à toutes les entreprises,
+         quelle  que soit leur taille.
         </p>
       </div>
       <div class="flex flex-row flex-wrap items-start justify-center md:justify-start gap-y-5 gap-x-[34px]">
@@ -108,7 +107,7 @@ get_header('home');
 <div class="-mb-24 px-5 xl:px-0 flex w-full max-w-screen-xl flex-col md:flex-row items-start justify-start text-center text-35xl-5 text-midnightblue">
   <div class="w-full shadow-[0px_5px_29px_rgba(33,_52,_48,_0.34)] rounded-t-3xs md:rounded-tl-3xs gap-5 md:rounded-tr-none md:rounded-br-none md:rounded-bl-3xs bg-white py-10 flex flex-row flex-wrap items-center justify-evenly">
     <div class="flex flex-col items-center justify-start gap-[16px]">
-      <b class="relative leading-[60.58px] mix-blend-normal">560+</b>
+      <b class="relative leading-[60.58px] mix-blend-normal">100+</b>
       <img class="w-[60.6px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider1.svg" />
 
       <span class="relative text-lg-2 leading-[26.25px] font-semibold text-darkslategray-300 mix-blend-normal">
@@ -116,19 +115,19 @@ get_header('home');
       </span>
     </div>
     <div class="flex flex-col items-center justify-start gap-[15px]">
-      <b class="relative leading-[60.58px] mix-blend-normal">15K+</b>
+      <b class="relative leading-[60.58px] mix-blend-normal">3K+</b>
       <img class="w-[60.6px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider2.svg" />
 
       <div class="relative text-lg-2 leading-[26.25px] font-semibold text-darkslategray-300 mix-blend-normal">
-        GPS Installer
+      Véhicules gérés
       </div>
     </div>
     <div class="flex flex-col items-center justify-start gap-[16px]">
-      <b class="relative leading-[60.58px] mix-blend-normal">68K+</b>
+      <b class="relative leading-[60.58px] mix-blend-normal">20+</b>
       <img class="w-[60.6px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider1.svg" />
 
       <div class="relative text-lg-2 leading-[26.25px] font-semibold text-darkslategray-300 mix-blend-normal">
-        Membre d’équipe
+      Membre d’équipe
       </div>
     </div>
   </div>
@@ -161,22 +160,22 @@ get_header('home');
   </div>
 
   <div class="flex flex-col items-start justify-start gap-[34px]">
-    <div class="flex flex-col items-start justify-start gap-[75px]">
+    <div class="flex flex-col items-start justify-start gap-[8px]">
       <div class="flex flex-col items-start justify-start gap-[4px]">
         <h6 class="m-0 relative text-inherit leading-[26.25px] font-medium font-inherit mix-blend-normal">
           Une solution selon votre métier
         </h6>
         <h2 class="m-0 max-w-[606px] relative text-13xl sm:text-21xl-4 leading-[49px] font-bold font-work-sans mix-blend-normal text-midnightblue">
-          GÉOLOCALISATION PAR GPS
+        Créez un monde de différence et mettez le contrôle total au bout de vos doigts.
         </h2>
       </div>
       <img class="w-[60.6px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider4.svg" />
     </div>
     <p class="m-0 max-w-[606px] relative text-sm leading-[24px] mix-blend-normal text-darkslategray-100">
-      <span class="block">
+      <span class="block text-justify">
         <span>
-          <span>Nous vous remercions pour l'intérêt que vous portez pour
-            notre produit.</span>
+          <span>Tracky Solutions est spécialisée dans les systèmes de suivi des véhicules et de 
+          télématique, avec plus de 3 000 systèmes de suivi actifs en Afrique.</span>
         </span>
       </span>
       <span class="block">
@@ -184,24 +183,13 @@ get_header('home');
           <span>&nbsp;</span>
         </span>
       </span>
-      <span class="block">
-        <b class="font-poppins text-midnightblue">TRACKY </b>
-        <span>est une solution SAAS (software as a service). Aucun logiciel à
-          installer. Une simple connexion internet suffit, Pas de mises à
-          jour à faire par l’utilisateur. Dispose d’une application
-          disponible sur PC, Mac, ou encore sur Smartphone et tablette Le
-          matériel inclut la carte SIM et le boitier GPS. Celui-ci est
-          garanti pendant toute la durée du contrat. Les cartes SIM MtoM
-          incluent le roaming nationale et internationale.</span>
-      </span>
-      <span class="block">
-        <span>&nbsp;</span>
-      </span>
-      <span class="block">
-        <span>Le service clientèle et le support technique est compris avec
-          la solution. Pour les boitiers intégrés seulement, la pose du
-          système se fait par nos installateurs agréés. Pour les autres
-          boitiers, l’installation se fait par vos soins.</span>
+      <span class="block text-justify">
+        <span>Nous fournissons des produits et des services de pointe à tous les types d’entreprises, 
+          de celles qui ne possèdent que quelques véhicules aux grandes flottes commerciales. 
+          Nos systèmes peuvent être intégrés dans les voitures, les camionnettes, les camions, 
+          les motos, les installations, les équipements, les machines et d’autres biens précieux 
+          afin de les protéger et de fournir les informations dont vous avez besoin pour gérer 
+          votre entreprise plus efficacement.</span>
       </span>
     </p>
     <button class="cursor-pointer [border:none] p-0 bg-cornflowerblue-100 w-[194.9px] rounded-[1.67px] h-[58.6px] flex flex-col items-center justify-center">
@@ -219,8 +207,8 @@ get_header('home');
         Localisez vos Véhicule
       </h6>
       <b class="relative text-13xl leading-normal sm:text-21xl-4 sm:leading-[52px] font-work-sans mix-blend-normal text-midnightblue">
-        UNE PANOPLIE D'OPTION ET D'OUTILS <br />
-        POUR LOCALISER VOS VÉHICULES
+      UNE PANOPLIE D'OPTION ET D'OUTILS<br>
+       POUR GERER VOTRE FLOTE
       </b>
     </div>
     <img class="w-[60.6px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider1.svg" />
@@ -340,8 +328,8 @@ get_header('home');
           <h6 class="m-0 relative text-inherit leading-[26.25px] font-semibold font-inherit mix-blend-normal">
             Notre Solution
           </h6>
-          <h2 class="m-0 max-w-[414px] relative text-13xl lg:text-21xl-4 leading-[46.44px] font-bold font-work-sans [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:2] [-webkit-box-orient:vertical] mix-blend-normal text-midnightblue">
-            TRACKY FONCTIONNALITÉS
+          <h2 class="m-0 max-w-[414px] relative text-13xl lg:text-21xl-4 leading-[46.44px] font-bold font-work-sans [display:-webkit-inline-box] overflow-hidden text-ellipsis mix-blend-normal text-midnightblue">
+          Avec notre logiciel facile à utiliser, vous verrez rapidement les avantages
           </h2>
         </div>
         <img class="w-[60.6px] relative h-[3px] mix-blend-normal" src="<?= get_template_directory_uri() ?>/assets/images/divider4.svg" alt="" />
@@ -350,16 +338,15 @@ get_header('home');
       <div class="flex flex-col items-start justify-start gap-[20px] text-sm text-darkslategray-100">
         <p class="m-0 max-w-[413.9px] relative leading-[25px]">
           <span class="block">
-            <span class="text-darkslategray-100">TRACKY </span>
-            <span>est une solution SAAS (software as a service). Aucun
-              logiciel à installer. Une simple connexion internet suffit,
-              Pas de mises à jour à faire par l’utilisateur.</span>
+            <span>Notre logiciel de suivi en ligne est simple d’utilisation et offre une gamme de 
+              fonctionnalités adaptées à vos besoins. Il est disponible sur une application mobile, ce 
+              qui le rend idéal pour les propriétaires et les gestionnaires de flotte qui sont souvent 
+              absents du bureau.</span>
           </span>
           <br />
           <span class="block">
-            <span>Dispose d’une application disponible sur PC, Mac, ou encore
-              sur Smartphone et tablette Le matériel inclut la carte SIM
-              et le boitier GPS.
+            <span>D’autres intégrations de données uniques sont disponibles pour les clients qui ont des 
+            besoins plus avancés.
             </span>
           </span>
         </p>
@@ -392,8 +379,8 @@ get_header('home');
             CARTOGRAPHIE
           </h6>
           <p class="m-0 max-w-[333.2px] relative text-sm leading-[24px] font-poppins text-darkslategray-100 [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:3] [-webkit-box-orient:vertical] mix-blend-normal">
-            Visualisation de votre flotte sur carte avec une cartographie
-            respectant l’intégrité territoriale de chaque pays.
+          Visualisation de votre flotte sur carte avec une cartographie respectant l’intégrité 
+          territoriale de chaque pays.
           </p>
         </div>
       </div>
@@ -410,8 +397,8 @@ get_header('home');
             GESTION DE CARBURANT
           </h6>
           <p class="m-0 max-w-[339.8px] relative text-sm leading-[24px] font-poppins text-darkslategray-100">
-            Nous avons développé grâce à notre expérience des outils pour
-            avoir une consommation correcte .
+          Nous avons développé grâce à notre expérience des outils pour avoir une 
+          consommation correcte.
           </p>
         </div>
       </div>
@@ -428,8 +415,8 @@ get_header('home');
             RAPPORTS AUTOMATIQUE
           </h6>
           <p class="m-0 max-w-[333.2px] relative text-sm leading-[24px] font-poppins text-darkslategray-100 [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:3] [-webkit-box-orient:vertical] mix-blend-normal">
-            Configuration et planification des rapports envoyés par emails
-            selon des paramètres prédéfinis par l’utilisateur.
+          Configuration et planification des rapports envoyés par emails selon des paramètres 
+          prédéfinis par l’utilisateur.
           </p>
         </div>
       </div>
@@ -438,7 +425,7 @@ get_header('home');
 </section>
 
 <!-- * Notre Produits * -->
-<section class="self-stretch min-h-[812px] pb-16 xl:pb-0 px-5 max-w-screen-xl 2xl:px-0 mx-auto flex flex-col items-center justify-start gap-[48px] text-left text-xl-2 text-cornflowerblue-100 font-poppins">
+<section class="mt-12 self-stretch min-h-[812px] pb-16 xl:pb-0 px-5 max-w-screen-xl 2xl:px-0 mx-auto flex flex-col items-center justify-start gap-[48px] text-left text-xl-2 text-cornflowerblue-100 font-poppins">
   <div class="flex flex-col items-center justify-start">
     <h6 class="m-0 relative text-inherit leading-[26.25px] font-semibold font-inherit mix-blend-normal">
       Notre Solution
@@ -506,21 +493,22 @@ get_header('home');
     <div class="flex flex-col items-start justify-start gap-[17px]">
       <div class="flex flex-col items-start justify-start gap-[3px]">
         <h6 class="m-0 relative text-inherit leading-[26.25px] font-semibold font-inherit mix-blend-normal">
-          Do Good
+        Devenons partenaires !
         </h6>
         <h2 class="m-0 relative text-21xl-4 sm:text-[43px] leading-[59px] font-bold font-work-sans mix-blend-normal text-white">
-          REJOIGNEZ <br />
-          NOTRE RÉSEAU REVENDEURS
+        Devenez un partenaire de TRACKY<br>
+         Solutions et développez votre<br> activité
         </h2>
       </div>
       <img class="w-[60.6px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider4.svg" />
     </div>
     <div class="flex flex-col items-start justify-start gap-[26px] text-sm-9 text-white">
-      <p class="m-0 max-w-[689.2px] relative leading-[24.76px]">
-        <span>TRACKY </span>
-        <span>est une solution SAAS (software as a service). Aucun logiciel à
-          installer. Une simple connexion internet suffit, Pas de mises à
-          jour à faire par l’utilisateur.</span>
+      <p class="m-0 max-w-[689.2px] relative leading-[24.76px] text-justify">
+        <span>Il existe d’énormes opportunités de croissance aux quatre coins du monde. Étant 
+        l’une des marques à la croissance la plus rapide dans le secteur de la télématique, 
+        c’est le moment idéal pour rejoindre TRACKY Solutions en tant que partenaire.
+        Nos modèles de commission et de partenariat sont uniques et offrent de hauts 
+        niveaux de flexibilité, vous trouverez donc la bonne relation pour travailler avec nous.</span>
       </p>
       <div class="flex flex-row flex-wrap items-start justify-start gap-[34px]">
         <button class="cursor-pointer p-0 bg-cornflowerblue-100 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro">
@@ -530,7 +518,7 @@ get_header('home');
         </button>
         <button class="cursor-pointer p-0 bg-cornflowerblue-200 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro">
           <a href="/demende-un-devis" class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white">
-            Demande un devis
+          Voir les partenariats
           </a>
         </button>
       </div>
