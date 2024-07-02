@@ -86,7 +86,7 @@ get_header();
 
 <!-- * ---- Nos Solutions ---- * -->
 <section class="self-stretch justify-start relative gap-[136px] text-left text-xl text-cornflowerblue-100 font-poppins">
-  <div class="relative -mt-10 max-w-screen-xl mx-auto z-[2]">
+  <div class="relative -mt-10 max-w-screen-xl mx-auto z-[2] overflow-hidden">
     <div class="w-full mb-24 px-5 gap-5 lg:gap-10 flex-wrap shadow-lg lg:border border-solid border-gray-50 lg:px-10 2xl:px-20 py-10 flex items-center justify-between bg-[url('/wp-content/themes/tracky/assets/images/bgs/bg-wave-lines.webp')] bg-no-repeat bg-center">
       <div class="flex flex-col items-start justify-start">
         <div class="flex flex-col items-start justify-start gap-[6px]">
