@@ -20,41 +20,23 @@ get_header();
   <div class="max-w-[616px] h-[356px] sm:h-[456px] lg:h-[565px] min-w-72 w-full flex flex-col items-start justify-start relative bg-[url('/wp-content/themes/tracky/assets/images/pages/secteur/truck.webp')] bg-cover bg-no-repeat bg-[top] max-sm:!w-[250px]">
     <img class="w-[117.2px] !m-[0] absolute top-[-46px] -right-10 h-[123.7px] object-cover z-[0]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/logo/logo-without-text.svg" />
   </div>
-  <div class="flex flex-col items-start justify-start gap-[46px]">
-    <div class="flex flex-col items-start justify-start gap-[12px]">
-      <div class="flex flex-col items-start justify-start gap-[4px]">
-        <h6 class="m-0 relative text-inherit leading-[26.25px] font-medium font-inherit mix-blend-normal">
-          Secteur
-        </h6>
-        <h2 class="m-0 max-w-[606px] relative text-21xl-4 leading-[49px] font-bold font-work-sans text-midnightblue">
-          TRANSPORT
-          <br />
-          DE MARCHANDISE
-        </h2>
-      </div>
-      <img class="w-[60.3px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider10.svg" />
+  <div class="flex flex-col items-start justify-start gap-[29px]">
+    <div class="flex flex-col items-start justify-start">
+      <h6 class="m-0 relative text-inherit leading-[25.99px] font-bold font-inherit mix-blend-normal">
+      TRANSPORTS & LOGISTIQUE
+      </h6>
+      <h2 class="m-0 relative text-13xl leading-[48.51px] font-bold font-work-sans text-midnightblue">
+      Créez une flotte sûre et conforme avec des informations basées sur les données.
+      </h2>
     </div>
-    <div class="max-w-[606px] flex flex-col items-start justify-start gap-[56px] text-sm-9 text-darkslategray-100">
-      <div class="max-w-[614px] flex flex-col items-start justify-start gap-[26px]">
-        <p class="relative leading-[23.91px]">
-          Toutes les contraintes et besoins que nécessite le transport de
-          marchandises ont été étudiés par nos équipes pour arriver à
-          satisfaire ce créneau trés sensible.
-        </p>
-        <p class="relative leading-[23.91px]">
-          <span class="block">Nous vous offrons des solutions sur mesure pour pouvoir gèrer
-            votre flotte. Gérer le kilomètrage parcouru, la consommation
-            de carburant, les pannes moteur, les alertes, l'historique des
-            trajets...</span>
-        </p>
-        <p class="m-0 max-w-[614px] relative leading-[23.91px]">
-          Le service clientèle et le support technique est compris avec la
-          solution. Pour les boitiers intégrés seulement, la pose du
-          système se fait par nos installateurs agréés. Pour les autres
-          boitiers, l’installation se fait par vos soins.
-        </p>
-      </div>
+    <img class="w-[60px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider8.svg" />
 
+    <div class="flex flex-col items-start justify-start gap-[26px] text-mini text-darkslategray-100">
+      <p class="m-0 max-w-[600px] relative leading-[27px] mix-blend-normal">
+        <span class="items-center justify-center">AVANTAGES</span><br>
+        TRACKY SOLUTIONS évalue les objectifs propres au secteur d’activité de chacun de ses clients pour proposer des solutions permettant de réduire les accidents,
+        améliorer la productivité, réduire la consommation de carburant, respecter les réglementations et bien plus encore.
+      </p>
       <button class="cursor-pointer [border:none] p-0 bg-cornflowerblue-100 w-[194.9px] rounded-[1.67px] h-[58.6px] flex flex-col items-center justify-center">
         <span class="relative text-base-2 leading-[22.21px] font-semibold font-poppins text-white text-left mix-blend-normal">
           En savoir plus
@@ -80,61 +62,63 @@ get_header();
     <img class="w-[60px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider2.svg" />
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[34px] text-base text-white">
-      <div class=" group max-w-[299.8px] rounded-[3.33px] h-[261.9px] mt-4 flex flex-col items-center justify-center gap-[22px] bg-transparent hover:bg-white !duration-200 !transition-all">
+      <div class=" group max-w-[299.8px] rounded-[3.33px] h-[400px] mt-10 flex flex-col items-center justify-center gap-[22px] bg-transparent hover:bg-white !duration-200 !transition-all">
         <div class="w-[89.9px] rounded-81xl bg-cornflowerblue-100 h-[90px] flex flex-row items-center justify-center">
           <img class="w-[45px] h-[51px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/driver-icon.svg" />
         </div>
         <div class="flex flex-col items-center justify-start gap-[8px]">
           <h5 class="relative leading-[27.98px] font-semibold mix-blend-normal group-hover:text-cornflowerblue-100">
-            GESTION DES REMORQUES
+            RÉDUIRE LE COÛT
           </h5>
           <p class="relative leading-[28px] mix-blend-normal group-hover:text-darkslategray-100">
-            Elit eget gravida cum sociis natoque.
+          Il est important de recueillir des données sur toutes les dépenses de votre parc de véhicules, de l’entretien au carburant, et de mettre en œuvre des mesures
+           pour réduire ces coûts grâce à des méthodes d’optimisation éprouvées.
           </p>
         </div>
       </div>
 
-      <div class="group w-[299.8px] rounded-[3.33px]  h-[261.9px] flex flex-col items-center justify-center gap-[22px] text-cornflowerblue-100 hover:bg-white !duration-200 !transition-all">
+      <div class="group w-[299.8px] rounded-[3.33px]  h-[400px] flex flex-col items-center justify-center gap-[22px] text-cornflowerblue-100 hover:bg-white !duration-200 !transition-all">
         <div class="w-[89.9px] rounded-81xl bg-cornflowerblue-100 h-[90px] flex flex-row items-center justify-center">
           <img class="w-[45px] h-[51px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/driver-icon.svg" />
         </div>
         <div class="flex flex-col items-center justify-start gap-[8px]">
           <div class="relative leading-[27.98px] font-semibold mix-blend-normal text-white group-hover:text-cornflowerblue-100">
-            COMPORTEMENT CONDUCTEUR
+          UGMENTER LA SÉCURITÉ
           </div>
           <div class="relative leading-[28px] mix-blend-normal text-white group-hover:text-darkslategray-100">
-            <p class="m-0">Mauris vitae ultricies leo</p>
-            <p class="m-0">integer malesuada.</p>
+            <p class="m-0">Pour l’exploitation d’un parc de véhicules, il est essentiel d’améliorer les niveaux de</p>
+            <p class="m-0">sécurité. Surveillez, gérez et améliorez la sécurité de votre parc en réduisant les risques.</p>
           </div>
         </div>
       </div>
 
-      <div class="group w-[299.8px] rounded-[3.33px] h-[261.9px] flex flex-col items-center justify-center gap-[22px] hover:bg-white !duration-200 !transition-all">
+      <div class="group w-[299.8px] rounded-[3.33px] h-[400px] mt-10 flex flex-col items-center justify-center gap-[22px] hover:bg-white !duration-200 !transition-all">
         <div class="w-[89.9px] rounded-81xl bg-cornflowerblue-100 h-[90px] flex flex-row items-center justify-center">
           <img class="w-[45px] h-[51px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/driver-icon.svg" />
         </div>
         <div class="flex flex-col items-center justify-start gap-[8px]">
           <div class="relative leading-[27.98px] font-semibold mix-blend-normal group-hover:text-cornflowerblue-100">
-            KPI Dashboard
+          AMÉLIORER LA GESTION DE LA MAIN-D’ŒUVRE
           </div>
           <div class="relative leading-[28px] mix-blend-normal group-hover:text-darkslategray-100">
-            <p class="m-0">Excepteur sint occaecat</p>
-            <p class="m-0">cupidatat proident.</p>
+            <p class="m-0">Dans le monde des affaires d’aujourd’hui, la concurrence est rude et le rythme effréné. Notre offre peut vous aider à gagner en efficacité et en productivité</p>
+            <p class="m-0">, à améliorer la fidélité de vos clients, à vous distinguer et à réduire vos coûts !
+            </p>
           </div>
         </div>
       </div>
 
-      <div class="group w-[299.8px] rounded-[3.33px] h-[261.9px] flex flex-col items-center justify-center gap-[22px] hover:bg-white !duration-200 !transition-all">
+      <div class="group w-[299.8px] rounded-[3.33px] h-[400px] mt-3 flex flex-col items-center justify-center gap-[22px] hover:bg-white !duration-200 !transition-all">
         <div class="w-[89.9px] rounded-81xl bg-cornflowerblue-100 h-[90px] flex flex-row items-center justify-center">
           <img class="w-[45px] h-[51px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/driver-icon.svg" />
         </div>
         <div class="flex flex-col items-center justify-start gap-[8px]">
           <div class="relative leading-[27.98px] font-semibold mix-blend-normal group-hover:text-cornflowerblue-100">
-            RAPPORTS AUTOMATIQUE
+          MAINTENIR LA CONFORMITÉ
           </div>
           <div class="relative leading-[28px] mix-blend-normal group-hover:text-darkslategray-100">
-            <p class="m-0">Varius duis at consectetur</p>
-            <p class="m-0">lorem donec massa.</p>
+            <p class="m-0">Le respect de la vaste législation relative aux opérations de transport routier exige</p>
+            <p class="m-0">une compréhension approfondie des règles de conformité et de leur mise en œuvre efficace dans votre parc.</p>
           </div>
         </div>
       </div>
@@ -188,33 +172,41 @@ get_header();
 </section>
 
 <!-- * ---- VOTRE APPLICATION ---- * -->
-<section class="self-stretch px-5 pb-20 lg:pb-16 2xl:px-0 max-w-screen-xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-center gap-[70px] text-left text-lg text-cornflowerblue-100 font-poppins">
+<section class="m-12 self-stretch px-5 pb-20 lg:pb-16 2xl:px-0 max-w-screen-xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-center gap-[70px] text-left text-lg text-cornflowerblue-100 font-poppins">
   <div class="flex flex-col items-start justify-start gap-12 md:gap-[76px]">
     <div class="flex flex-col items-start justify-start gap-[32px]">
       <div class="flex flex-col items-start justify-start gap-[4px]">
-        <h6 class="m-0 relative text-inherit leading-[26.25px] font-medium font-inherit mix-blend-normal">
-          Secteur
+        <h6 class="m-0 relative text-inherit leading-[26.25px] font-bold font-inherit mix-blend-normal">
+        PHARMACEUTIQUE
         </h6>
-        <h2 class="m-0 relative text-21xl-4 leading-[49px] font-bold font-work-sans [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:2] [-webkit-box-orient:vertical] mix-blend-normal text-midnightblue">
-          VOTRE <br />APPLICATION
+        <h2 class="m-0 relative text-21xl-4 leading-[49px] font-bold font-work-sans overflow-hidden mix-blend-normal text-midnightblue">
+        Suivez et protégez votre flotte<br> flexible pour améliorer la sécurité et l’efficacité
+
         </h2>
       </div>
       <img class="w-[60px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider8.svg" />
 
       <div class="flex flex-col items-end justify-start gap-[25px] text-mini text-darkslategray-100">
         <p class="m-0 max-w-[626px] relative leading-[27px]">
-          Nous vous offrons des solutions sur mesure pour pouvoir gèrer
-          votre flotte. Gérer le kilomètrage parcouru, la consommation de
-          carburant, les pannes moteur, les alertes, l'historique des
-          trajets...
+        POURQUOI CHOISIR TRACKY SOLUTIONS POUR VOTRE FLOTTE PHARMACEUTIQUE
+
         </p>
         <div class="max-w-[629.7px] px-6 py-5 rounded-[3px] bg-whitesmoke-200 flex flex-row items-center justify-center gap-[20px] text-base text-midnightblue">
           <img class="w-5 relative h-3.5 mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/double-vergule-icon.svg" />
 
           <p class="m-0 max-w-[550px] relative leading-[21.99px]">
-            Nisl tincidunt eget nullam non nisi est sit amet. Leo vel orci
-            porta non pulvinar neque laoreet. Ante metus dictum at tempor
-            commodo ullamcorper.
+          <b>.</b> Leader de la télématique de flotte connectée <br>
+          <b>.</b> Une couverture géographique inégalée dans plus de 120 pays<br>
+          <b>.</b> Spécialisé dans les segments verticaux clés<br>
+          <b>.</b> Expérience utilisateur et interface utilisateur de premier plan via une plateforme SaaS primée<br>
+          <b>.</b> Taux de fidélisation des clients de 98 %<br>
+          <b>.</b> Plus de 5 ans d'expérience dans l'industrie<br>
+          <b>.</b> Plus de 500 clients de flottes mondiales<br>
+          <b>.</b > Plus de 15 partenaires de distribution<br>
+          <b>.</b> Nous faisons avancer le monde en connectant et en protégeant les opérations de flotte de nos clients<br>
+          <b>.</b> Contribuer à éviter 23 500 collisions par an<br>
+          <b>.</b> Des solutions qui atteignent les objectifs de sécurité, de durabilité, de conformité et d’efficacité
+
           </p>
         </div>
       </div>
@@ -277,11 +269,15 @@ get_header();
 <section class="self-stretch px-5 flex flex-col items-center justify-center gap-[53px] text-center text-mid-8 text-cornflowerblue-100 font-poppins">
   <div class="flex flex-col items-center justify-start gap-[25px]">
     <div class="flex flex-col items-center justify-start">
-      <h6 class="m-0 relative text-inherit leading-[25.99px] font-medium font-inherit mix-blend-normal">
-        Secteur
+      <h6 class="m-0 relative text-inherit leading-[25.99px] font-bold  font-inherit mix-blend-normal">
+      CONSTRUCTION
       </h6>
-      <h2 class="m-0 relative text-21xl-4 leading-[48.51px] font-bold font-work-sans text-midnightblue text-left mix-blend-normal">
-        TRANSPORT DE MARCHANDISE
+      <h2 class="m-0 relative  leading-[48.51px] font-bold font-work-sans text-midnightblue text-left mix-blend-normal">
+      Atteignez l’excellence opérationnelle sur vos chantiers en gérant efficacement vos actifs.
+      </h2>
+      <h2 class="m-0 relative text-inherit  leading-[25.99px] font-semibold font-inherit mix-blend-normal">
+     OBTENEZ DES SOLUTIONS CIBLÉES POUR UNE SÉCURITÉ ET<br>UNE EFFICACITÉ MAXIMALES.
+
       </h2>
     </div>
     <img class="w-[60px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider12.svg" />
@@ -294,55 +290,62 @@ get_header();
       </div>
       <div class="flex flex-col items-center justify-start gap-[11px] text-xl">
         <h5 class="m-0 relative text-inherit leading-[25.99px] font-semibold font-inherit mix-blend-normal">
-          Lorem ipsum
+        MAXIMISER LA SÉCURITÉ DU CONDUCTEUR
         </h5>
         <p class="m-0 max-w-64 relative text-base leading-[26px] mix-blend-normal text-darkslategray-100">
-          Mattis molestie a iaculis at erat pellentesque adipiscing.
+        Les opérations de construction prospèrent dans des environnements sûrs. Les conducteurs et opérateurs de votre site jouent un rôle crucial dans le bon fonctionnement de vos opérations. Par conséquent, la communication avec les travailleurs à distance est essentielle et la surveillance des heures de service contribue à assurer la sécurité des conducteurs. Notre technologie télématique est bien adaptée au secteur de la construction car elle est conçue pour surveiller les événements de conduite à haut risque comme la marche au ralenti excessive, les freinages brusques, la distraction, la fatigue et la vitesse - qui peuvent tous nuire au maintien des objectifs critiques de sécurité du site. Nos solutions de surveillance des conducteurs constituent une réponse
+         sophistiquée et simple pour obtenir les données précieses qui vous aident à prendre des décisions préventives concernant les opérations de votre site en considérant la sécurité des conducteurs comme un aspect clé.
         </p>
       </div>
     </div>
 
     <div class="flex flex-col items-center justify-start gap-[20px]">
       <div class="w-[189.9px] h-[189.9px] flex flex-col items-center justify-center relative gap-[10px]">
-        <b class="relative leading-[45.97px] text-21xl-4 z-[0]">75%</b>
-        <img class="w-[189.9px] absolute !m-[0] top-[0px] left-[0px] h-[189.9px] mix-blend-normal z-[1]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/circle-progress-75.svg" />
+        <b class="relative leading-[45.97px] text-21xl-4 z-[0]">100%</b>
+        <img class="w-[189.9px] absolute !m-[0] top-[0px] left-[0px] h-[189.9px] mix-blend-normal z-[1]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/circle-progress-76.svg" />
       </div>
       <div class="flex flex-col items-center justify-start gap-[11px] text-xl">
         <h5 class="m-0 relative text-inherit leading-[25.99px] font-semibold font-inherit mix-blend-normal">
-          Lorem ipsum
+        VISIBILITÉ COMPLÈTE DES ACTIFS ET DES VÉHICULES
         </h5>
         <p class="m-0 max-w-64 relative text-base leading-[26px] mix-blend-normal text-darkslategray-100">
-          Mattis molestie a iaculis at erat pellentesque adipiscing.
+        L'utilisation efficace de notre technologie de gestion de flotte et d'actifs peut vous connecter directement à un moteur pour surveiller les diagnostics cruciaux et contribuer à garantir que les services et les réparations sont effectués dans les délais, évitant ainsi les temps d'arrêt coûteux et gênants. Dans le secteur de la construction, il existe toujours une demande pour une réalisation plus rapide des projets avec une plus grande efficacité et des opérations plus sûres. Les chefs de projet et de site disposent d'un partenaire indispensable qui est TRACKY SOLUTIONS:
+        Notre technologie supprime le fardeau de la maintenance des équipements coûteux et évite les temps d'arrêt inutiles grâce à des alertes de maintenance préventive et des calendriers automatiques de réparations. Vous disposez également d’une vue complète de la façon dont les véhicules et les actifs sont utilisés à tout moment, vous donnant ainsi une vue d’ensemble complète pour prendre des décisions et planifier en temps réel.
+
         </p>
       </div>
     </div>
 
     <div class="flex flex-col items-center justify-start gap-[20px]">
       <div class="w-[189.9px] h-[189.9px] flex flex-col items-center justify-center relative gap-[10px]">
-        <b class="relative leading-[45.97px] text-21xl-4 z-[0]">75%</b>
-        <img class="w-[189.9px] absolute !m-[0] top-[0px] left-[0px] h-[189.9px] mix-blend-normal z-[1]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/circle-progress-75.svg" />
+        <b class="relative leading-[45.97px] text-21xl-4 z-[0]">85%</b>
+        <img class="w-[189.9px] absolute !m-[0] top-[0px] left-[0px] h-[189.9px] mix-blend-normal z-[1]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/circle-progress-77.svg" />
       </div>
       <div class="flex flex-col items-center justify-start gap-[11px] text-xl">
         <h5 class="m-0 relative text-inherit leading-[25.99px] font-semibold font-inherit mix-blend-normal">
-          Lorem ipsum
+        PRATIQUES DE CONSTRUCTION ÉCOLOGIQUEMENT DURABLES
         </h5>
         <p class="m-0 max-w-64 relative text-base leading-[26px] mix-blend-normal text-darkslategray-100">
-          Mattis molestie a iaculis at erat pellentesque adipiscing.
+        TRACKY SOLUTIONS s'engage à aider nos clients du secteur de la construction à atteindre leurs objectifs de développement durable grâce à notre technologie progressive qui surveille
+        et alerte en temps réel la consommation excessive de carburant. Le secteur de la Construction est particulièrement sensible à l'impact que les opérations peuvent avoir sur l'environnement,
+        et notre objectif est de démontrer l'efficacité de la télématique pour améliorer la santé des salariés sur site et aider les entreprises à réduire la taxe sur les émissions carbone.
+
         </p>
       </div>
     </div>
 
     <div class="flex flex-col items-center justify-start gap-[20px]">
       <div class="w-[189.9px] h-[189.9px] flex flex-col items-center justify-center relative gap-[10px]">
-        <b class="relative leading-[45.97px] text-21xl-4 z-[0]">75%</b>
-        <img class="w-[189.9px] absolute !m-[0] top-[0px] left-[0px] h-[189.9px] mix-blend-normal z-[1]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/circle-progress-75.svg" />
+        <b class="relative leading-[45.97px] text-21xl-4 z-[0]">60%</b>
+        <img class="w-[189.9px] absolute !m-[0] top-[0px] left-[0px] h-[189.9px] mix-blend-normal z-[1]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/circle-progress-78.svg" />
       </div>
       <div class="flex flex-col items-center justify-start gap-[11px] text-xl">
         <h5 class="m-0 relative text-inherit leading-[25.99px] font-semibold font-inherit mix-blend-normal">
-          Lorem ipsum
+        LA GESTION<br> D'ACTIFS
         </h5>
         <p class="m-0 max-w-64 relative text-base leading-[26px] mix-blend-normal text-darkslategray-100">
-          Mattis molestie a iaculis at erat pellentesque adipiscing.
+        La gestion des actifs dans le secteur de la construction est un élément essentiel en termes de sécurité, de coûts et d'efficacité. Savoir à tout moment où se trouvent vos équipements lourds, vos outils, vos machines, vos remorques et l'infrastructure de votre bâtiment et comment ils sont utilisés est une priorité pour les opérations peu risquées où la surveillance des coûts et de l'utilisation
+        peut éviter des problèmes courants tels que les délais de projet tardifs et les manquements cibles.
         </p>
       </div>
     </div>
@@ -356,24 +359,37 @@ get_header();
   </div>
   <div class="flex flex-col items-start justify-start gap-[29px]">
     <div class="flex flex-col items-start justify-start">
-      <h6 class="m-0 relative text-inherit leading-[25.99px] font-medium font-inherit mix-blend-normal">
-        Secteur
+      <h6 class="m-0 relative text-inherit leading-[25.99px] font-bold font-inherit mix-blend-normal">
+      LA GESTION DES DÉCHETS
       </h6>
-      <h2 class="m-0 relative text-21xl-4 leading-[48.51px] font-bold font-work-sans text-midnightblue">
-        TRANSPORT <br />
-        DE MARCHANDISE
+      <h2 class="m-0 relative text-13xl leading-[48.51px] font-bold font-work-sans text-midnightblue">
+      Simplifiez la surveillance du parc<br> de gestion des déchets grâce aux<br> solutions télématiques
       </h2>
     </div>
     <img class="w-[60px] relative h-[3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/divider8.svg" />
 
     <div class="flex flex-col items-start justify-start gap-[26px] text-mini text-darkslategray-100">
       <p class="m-0 max-w-[600px] relative leading-[27px] mix-blend-normal">
-        Nous vous offrons des solutions sur mesure pour pouvoir gèrer
-        votre flotte. Gérer le kilomètrage parcouru, la consommation de
-        carburant, les pannes moteur, les alertes, l'historique des
-        trajets...
+        <span class="items-center justify-center lg:ml-48 text-lime-700 max-sm:ml-20">FICACITÉ ET DURABILITÉ</span><br><br>
+        <span class="justify-center items-center text-black">EXPÉRIENCE DE VÉHICULE CONNECTÉ</span><br>
+        <span class="justify-center items-center text-cornflowerblue-100">TÉLÉMATIQUE DES VÉHICULES</span><br>
+        En suivant et en surveillant les camions d'élimination des déchets, vous pouvez optimiser
+       les itinéraires et garantir que les déchets sont éliminés de la manière la plus efficace possible. Notre télémétrie véhicule est un outil
+       indispensable dans votre arsenal d’efficacité. La télématique sophistiquée de
+       TRACKY SOLUTIONS vous fournit des données sur votre flotte et vos actifs, vous aidant à comprendre l'emplacement, le suivi en direct, les performances des véhicules et des conducteurs,
+       la planification de la maintenance, la consommation de carburant et bien plus encore.<br><br>
+       <span class="text-fuchsia-900">CONTACTEZ TRACKY SOLUTIONS POUR ATTEINDRE VOS OBJECTIFS DE FLOTTE DE GESTION DES DÉCHETS</span><br>
+       Si vous recherchez une solution télématique de gestion des déchets pour améliorer les économies, la sécurité et la conformité, contactez TRACKY SOLUTIONS. Nous comprenons vos besoins uniques et proposons des solutions sur mesure pour votre flotte de gestion des déchets.<br> 
+      Nos forfaits répondent à divers aspects, en tenant compte de la taille de la flotte, du type de véhicule et des objectifs d'amélioration.<br> 
+      Notre équipe assure une transition fluide vers cette technologie, quelle que soit votre familiarité avec celle-ci.<br><br>
+      N'attendez pas : contactez TRACKY SOLUTIONS dès aujourd'hui pour lancer le processus !
       </p>
-      <div class="flex w-full flex-col items-start justify-start gap-[11px] text-lg text-midnightblue">
+      <button class="cursor-pointer p-0 bg-cornflowerblue-100 w-[196.9px] rounded-[1.67px] box-border h-[60.6px] flex flex-col items-center justify-center border-[1px] border-solid border-gainsboro">
+          <a href="/demende-un-devis" class="relative text-base-2 leading-[22.21px] font-semibold font-poppins !text-white text-left mix-blend-normal hover:text-white">
+          Demander un devis
+          </a>
+        </button>
+      <!-- <div class="flex w-full flex-col items-start justify-start gap-[11px] text-lg text-midnightblue">
         <div class="w-full flex flex-col items-start justify-start gap-[18px]">
           <div class="w-full flex flex-row items-start justify-between">
             <h6 class="relative leading-[25.99px] font-semibold mix-blend-normal">
@@ -401,7 +417,7 @@ get_header();
             <div class="w-3/5 h-2 bg-cornflowerblue-100"></div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
