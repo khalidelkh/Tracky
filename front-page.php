@@ -230,14 +230,12 @@ get_header('home');
 
         <!-- Swiper wrapper -->
         <div class="swiper-wrapper h-full w-full">
-          <div class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0 pb-[50px] pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407_3x-min.webp')] bg-cover bg-no-repeat bg-[top]">
+          <div class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0  pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407_3x-min.webp')] bg-cover bg-no-repeat bg-[top]">
             <div class="relative leading-[26.25px] font-semibold mix-blend-normal">
-              Secteur
+            TRANSPORTS & LOGISTIQUE
             </div>
-            <div class="relative text-left leading-[38px] mix-blend-normal text-13xl font-work-sans">
-              <b>PARTICULIER</b>
-              <p class="text-white m-0">
-                OU PERSONNEL
+            <div class="relative text-left text-white leading-[38px] mix-blend-normal text-xl font-work-sans">
+            Créez une flotte sûre et conforme avec des informations basées sur les données.
                 <img 
                 class="text-4xl font-awesome-5-pro text-cornflowerblue-100"
                 alt=""
@@ -247,14 +245,12 @@ get_header('home');
             </div>
           </div>
 
-          <div class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0 pb-[50px] pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/Frame-408-_1_.webp')] bg-cover bg-no-repeat bg-[top]">
+          <div class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0  pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/Frame-408-_1_.webp')] bg-cover bg-no-repeat bg-[top]">
             <div class="relative leading-[26.25px] font-semibold mix-blend-normal">
-              Secteur
+            PHARMACEUTIQUE
             </div>
-            <div class="relative text-left leading-[38px] mix-blend-normal text-13xl font-work-sans">
-              <b>CAR &</b>
-              <p class="text-white m-0">
-                TRANSPORT
+            <div class="relative text-left text-white leading-[38px] mix-blend-normal text-xl font-work-sans">
+             Suivez et protégez votre flotte flexible pour améliorer la sécurité et l’efficacité
                 <img 
                 class="text-4xl font-awesome-5-pro text-cornflowerblue-100"
                 alt=""
@@ -264,14 +260,12 @@ get_header('home');
             </div>
           </div>
 
-          <div class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0 pb-[50px] pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/Frame-409.webp')] bg-cover bg-no-repeat bg-[top]">
+          <div class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0  pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/Frame-409.webp')] bg-cover bg-no-repeat bg-[top]">
             <div class="relative leading-[26.25px] font-semibold mix-blend-normal">
-              Secteur
+            CONSTRUCTION
             </div>
-            <div class="relative text-left leading-[38px] mix-blend-normal text-13xl font-work-sans">
-              <b>TRANSPORT</b>
-              <p class="text-white m-0">
-                DE MARCHANDISSE
+            <div class="relative text-left text-white leading-[38px] mix-blend-normal text-xl font-work-sans">
+             Atteignez l’excellence opérationnelle sur vos chantiers en gérant efficacement vos actifs.
                 <img 
                 class="text-4xl font-awesome-5-pro text-cornflowerblue-100"
                 alt=""
@@ -280,16 +274,54 @@ get_header('home');
               </p>
             </div>
           </div>
-
-          <div class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0 pb-[50px] pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407_3x-min.webp')] bg-cover bg-no-repeat bg-[top]">
+          <div class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0  pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407_3x-min.webp')] bg-cover bg-no-repeat bg-[top]">
             <div class="relative leading-[26.25px] font-semibold mix-blend-normal">
-              Secteur
+            UTILITAIRES
             </div>
-            <div class="relative text-left leading-[38px] mix-blend-normal text-13xl font-work-sans">
-              <b>PARTICULIER</b>
-              <p class="text-white m-0">
-                OU PERSONNEL
+            <div class="relative text-left text-white leading-[38px] mix-blend-normal text-xl font-work-sans">
+              Connecte les véhicules, protège les opérateurs et fournit des informations exploitables aux gestionnaires de flotte
                 <img 
+                class="text-4xl font-awesome-5-pro text-cornflowerblue-100"
+                alt=""
+                src="<?= get_template_directory_uri() ?>/assets/images/icons/svgviewer-output (10).svg"
+                >             
+               </p>
+            </div>
+          </div>
+          <div class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0  pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407_3x-min.webp')] bg-cover bg-no-repeat bg-[top]">
+            <div class="relative leading-[26.25px] font-semibold mix-blend-normal">
+            GOUVERNEMENT
+            </div>
+            <div class="relative text-left text-white leading-[38px] mix-blend-normal  font-work-sans">
+             Avec notre technologie télématique à votre disposition, vous pouvez respecter des exigences budgétaires strictes, suivre l'utilisation, atteindre les objectifs écologiques, gérer les véhicules et bien plus encore                <img 
+                class="text-4xl font-awesome-5-pro text-cornflowerblue-100"
+                alt=""
+                src="<?= get_template_directory_uri() ?>/assets/images/icons/svgviewer-output (10).svg"
+                >             
+               </p>
+            </div>
+          </div>
+          <div class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0  pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407_3x-min.webp')] bg-cover bg-no-repeat bg-[top]">
+            <div class="relative leading-[26.25px] font-semibold mix-blend-normal">
+            VÉHICULE ÉLECTRIQUE
+            </div>
+            <div class="relative text-left text-white leading-[38px] mix-blend-normal text-xl font-work-sans">
+            L’adoption croissante des véhicules électriques pousse les gestionnaires de flotte à rechercher des outils sur mesure pour une gestion efficace                
+             <img 
+                class="text-4xl font-awesome-5-pro text-cornflowerblue-100"
+                alt=""
+                src="<?= get_template_directory_uri() ?>/assets/images/icons/svgviewer-output (10).svg"
+                >             
+               </p>
+            </div>
+          </div>
+          <div class=" vehicule swiper-slide !h-[400px] flex flex-col items-start justify-end pt-0  pr-0 pl-[30px] box-border gap-[8px] bg-[url('/wp-content/themes/tracky/assets/images/frame-407_3x-min.webp')] bg-cover bg-no-repeat bg-[top]">
+            <div class="relative leading-[26.25px] font-semibold mix-blend-normal">
+            LA GESTION DES DÉCHETS
+            </div>
+            <div class="relative text-left text-white leading-[38px] mix-blend-normal text-xl font-work-sans">
+            Simplifiez la surveillance du parc de gestion des déchets grâce aux solutions télématiques                
+             <img 
                 class="text-4xl font-awesome-5-pro text-cornflowerblue-100"
                 alt=""
                 src="<?= get_template_directory_uri() ?>/assets/images/icons/svgviewer-output (10).svg"
